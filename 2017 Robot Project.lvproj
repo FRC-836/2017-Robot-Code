@@ -156,12 +156,12 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Behaviors and stuff in progress.vi" Type="VI" URL="../Behaviors and stuff in progress.vi"/>
 		<Item Name="Drive Case Enum.ctl" Type="VI" URL="../enums/Drive Case Enum.ctl"/>
-		<Item Name="Drive_Code_Bundle.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Bundle.ctl"/>
+		<Item Name="Drive_Code_Bundle.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Bundle.ctl"/>
 		<Item Name="Drive_Loop_Gyro_Angle.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Loop_Gyro_Angle.vi"/>
 		<Item Name="Drive_Loop_PID_Update.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_PID_Update.vi"/>
 		<Item Name="DriverController.lvlib" Type="Library" URL="../DriverController.lvlib"/>
 		<Item Name="FMSCount.vi" Type="VI" URL="../FMSCount.vi"/>
-		<Item Name="IMUOrientOpen.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/IMUOrientOpen.vi"/>
+		<Item Name="IMUOrientOpen.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/IMUOrientOpen.vi"/>
 		<Item Name="MatchTimeNotifications.ctl" Type="VI" URL="../MatchTimeNotifications.ctl"/>
 		<Item Name="Periodic References.lvlib" Type="Library" URL="../Periodic References.lvlib"/>
 		<Item Name="Periodic Tasks Ian.vi" Type="VI" URL="../../git stuff/2017-Test-Code/Periodic Tasks Ian.vi"/>
@@ -172,7 +172,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Bump_Counter.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Bump_Counter.vi"/>
 				<Item Name="Camera_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Camera_Cluster.ctl"/>
 				<Item Name="Camera_Info_Grab.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Vision/Camera_Info_Grab.vi"/>
-				<Item Name="Drive_Code_Bundle.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Bundle.ctl"/>
 				<Item Name="Drive_Code_Command.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Command.ctl"/>
 				<Item Name="Drive_Code_Notifier.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Notifier.ctl"/>
 				<Item Name="Drive_Code_PID_Bundle.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Code_PID_Bundle.ctl"/>
@@ -195,7 +194,7 @@ AddOutputFilter chunkFilter
 				<Item Name="IMUOrientGetSetRefNum.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/IMUOrientGetSetRefNum.vi"/>
 				<Item Name="IMUOrientRead.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/IMUOrientRead.vi"/>
 				<Item Name="IMUOrientRefNum Registry Get.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/IMUOrientRefNum Registry Get.vi"/>
-				<Item Name="IMUOrientRefNum Registry Set.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/IMUOrientRefNum Registry Set.vi"/>
+				<Item Name="IMUOrientRefNum Registry Set.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/IMUOrientRefNum Registry Set.vi"/>
 				<Item Name="JK_Latch.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/JK_Latch.vi"/>
 				<Item Name="Latch.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Latch.vi"/>
 				<Item Name="Logging_Data.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Logging_Data.ctl"/>
@@ -213,6 +212,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Quaternion to Euler.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/Quaternion to Euler.vi"/>
 				<Item Name="Rot Order.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/Rot Order.ctl"/>
 				<Item Name="Sensor_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Sensor_Cluster.ctl"/>
+				<Item Name="Setup State.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/Setup State.ctl"/>
 				<Item Name="Signal_Pulse.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Signal_Pulse.vi"/>
 				<Item Name="Solenoid_Control_Loop.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Pneumatics/Support_Code/Solenoid_Control_Loop.ctl"/>
 				<Item Name="Stable.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Stable.vi"/>
