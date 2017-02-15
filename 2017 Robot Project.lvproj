@@ -9,6 +9,7 @@
 	<Property Name="varPersistentID:{40A51395-011F-4AA8-AB07-CF62BC73B134}" Type="Ref">/Target/Periodic References.lvlib/Drive Notifier Reference</Property>
 	<Property Name="varPersistentID:{4A767B28-7EA8-4EF7-92EF-54FFA942B631}" Type="Ref">/Target/DriverController.lvlib/Select</Property>
 	<Property Name="varPersistentID:{4D42FDF1-9FDC-4F30-B5FD-BA9E26075C7F}" Type="Ref">/Target/Vision Variables.lvlib/Boiler distance</Property>
+	<Property Name="varPersistentID:{4E7FCFA2-C635-4AA2-849A-8E131BFADC1B}" Type="Ref">/Target/Periodic References.lvlib/FMS Command Notifier</Property>
 	<Property Name="varPersistentID:{548019F2-B788-4E59-8FB8-E2F73D491783}" Type="Ref">/Target/Vision Variables.lvlib/Gear yaw delta</Property>
 	<Property Name="varPersistentID:{592C537F-625A-4347-B495-5B1102133610}" Type="Ref">/Target/Vision Variables.lvlib/Gear Distance</Property>
 	<Property Name="varPersistentID:{641E7E1D-BA73-4F9B-8E74-05228A0E7EBD}" Type="Ref">/Target/Vision Variables.lvlib/Boiler Yaw delta</Property>
@@ -160,9 +161,11 @@ AddOutputFilter chunkFilter
 		<Item Name="Drive_Loop_Gyro_Angle.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Loop_Gyro_Angle.vi"/>
 		<Item Name="Drive_Loop_PID_Update.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_PID_Update.vi"/>
 		<Item Name="DriverController.lvlib" Type="Library" URL="../DriverController.lvlib"/>
+		<Item Name="FMS Commands.ctl" Type="VI" URL="../FMS Commands.ctl"/>
 		<Item Name="FMSCount.vi" Type="VI" URL="../FMSCount.vi"/>
 		<Item Name="IMUOrientOpen.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/IMUOrientOpen.vi"/>
 		<Item Name="MatchTimeNotifications.ctl" Type="VI" URL="../MatchTimeNotifications.ctl"/>
+		<Item Name="NotifierConstants.ctl" Type="VI" URL="../NotifierConstants.ctl"/>
 		<Item Name="Periodic References.lvlib" Type="Library" URL="../Periodic References.lvlib"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Vision Variables.lvlib" Type="Library" URL="../Vision Variables.lvlib"/>
