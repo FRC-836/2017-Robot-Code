@@ -2,25 +2,26 @@
 <Project Type="Project" LVVersion="16008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
+	<Property Name="varPersistentID:{0A92427A-7C0D-4238-8D02-37B9FB18CDD4}" Type="Ref">/Target/ControlMode.lvlib/Manual Mode?</Property>
 	<Property Name="varPersistentID:{1203DF61-5777-4254-BF20-6AAFCFD1A59F}" Type="Ref">/Target/DriverController.lvlib/RightStickX</Property>
 	<Property Name="varPersistentID:{12EF759F-B260-40F9-BDB1-85AE4C2C549E}" Type="Ref">/Target/DriverController.lvlib/Y</Property>
 	<Property Name="varPersistentID:{2FA97F6A-32EF-40B4-86FB-2016E5CA35EA}" Type="Ref">/Target/DriverController.lvlib/LT</Property>
 	<Property Name="varPersistentID:{30CA141F-F535-45E9-9C68-D091E3EA8728}" Type="Ref">/Target/DriverController.lvlib/LeftStickY</Property>
-	<Property Name="varPersistentID:{40A51395-011F-4AA8-AB07-CF62BC73B134}" Type="Ref">/Target/Periodic References.lvlib/Drive Notifier Reference</Property>
+	<Property Name="varPersistentID:{40A51395-011F-4AA8-AB07-CF62BC73B134}" Type="Ref">/Target/Notifiers.lvlib/Drive Notifier Reference</Property>
 	<Property Name="varPersistentID:{4A767B28-7EA8-4EF7-92EF-54FFA942B631}" Type="Ref">/Target/DriverController.lvlib/Select</Property>
 	<Property Name="varPersistentID:{4D42FDF1-9FDC-4F30-B5FD-BA9E26075C7F}" Type="Ref">/Target/Vision Variables.lvlib/Boiler distance</Property>
-	<Property Name="varPersistentID:{4E7FCFA2-C635-4AA2-849A-8E131BFADC1B}" Type="Ref">/Target/Periodic References.lvlib/FMS Command Notifier</Property>
+	<Property Name="varPersistentID:{4E7FCFA2-C635-4AA2-849A-8E131BFADC1B}" Type="Ref">/Target/Notifiers.lvlib/FMS Command Notifier</Property>
 	<Property Name="varPersistentID:{548019F2-B788-4E59-8FB8-E2F73D491783}" Type="Ref">/Target/Vision Variables.lvlib/Gear yaw delta</Property>
 	<Property Name="varPersistentID:{592C537F-625A-4347-B495-5B1102133610}" Type="Ref">/Target/Vision Variables.lvlib/Gear Distance</Property>
 	<Property Name="varPersistentID:{641E7E1D-BA73-4F9B-8E74-05228A0E7EBD}" Type="Ref">/Target/Vision Variables.lvlib/Boiler Yaw delta</Property>
 	<Property Name="varPersistentID:{683A0407-CDAB-4729-BDE0-E4BE6073F803}" Type="Ref">/Target/DriverController.lvlib/Start</Property>
-	<Property Name="varPersistentID:{8AABDB6E-9DDE-421C-AEFF-9C9342F67ABD}" Type="Ref">/Target/Periodic References.lvlib/High Gear?</Property>
+	<Property Name="varPersistentID:{8AABDB6E-9DDE-421C-AEFF-9C9342F67ABD}" Type="Ref">/Target/Sensors.lvlib/High Gear?</Property>
 	<Property Name="varPersistentID:{95FB8E84-B437-4605-8832-7B3BED0E52E1}" Type="Ref">/Target/Vision Variables.lvlib/Boiler Found</Property>
 	<Property Name="varPersistentID:{9839E07B-01E1-4415-B463-17C7B1063536}" Type="Ref">/Target/DriverController.lvlib/RT</Property>
 	<Property Name="varPersistentID:{99F42768-3FA7-4DF2-8ED2-26024137FE82}" Type="Ref">/Target/DriverController.lvlib/X</Property>
 	<Property Name="varPersistentID:{9CECDBC6-ABEA-4AB1-9ADB-CCDF2DC64CC8}" Type="Ref">/Target/DriverController.lvlib/LB</Property>
-	<Property Name="varPersistentID:{A29F065B-F44D-4225-89C8-075D5D31C24D}" Type="Ref">/Target/Periodic References.lvlib/Turret IMU Yaw Wind</Property>
-	<Property Name="varPersistentID:{A86D6F8E-9594-4701-9EC2-350A0DD44E42}" Type="Ref">/Target/Periodic References.lvlib/Sonar Distance</Property>
+	<Property Name="varPersistentID:{A29F065B-F44D-4225-89C8-075D5D31C24D}" Type="Ref">/Target/Sensors.lvlib/Turret IMU Yaw Wind</Property>
+	<Property Name="varPersistentID:{A86D6F8E-9594-4701-9EC2-350A0DD44E42}" Type="Ref">/Target/Sensors.lvlib/Sonar Distance</Property>
 	<Property Name="varPersistentID:{AAE22D01-714A-4349-8DB2-A3C253E5B8E6}" Type="Ref">/Target/DriverController.lvlib/A</Property>
 	<Property Name="varPersistentID:{C233B3D6-4A7B-4543-94B4-700368619DEF}" Type="Ref">/Target/Vision Variables.lvlib/Gear valid</Property>
 	<Property Name="varPersistentID:{C659E74B-BCA6-44F8-BF4E-68BF523B7B9D}" Type="Ref">/Target/DriverController.lvlib/LeftStickX</Property>
@@ -156,6 +157,7 @@ AddOutputFilter chunkFilter
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Behaviors and stuff in progress.vi" Type="VI" URL="../Behaviors and stuff in progress.vi"/>
+		<Item Name="ControlMode.lvlib" Type="Library" URL="../ControlMode.lvlib"/>
 		<Item Name="Drive Case Enum.ctl" Type="VI" URL="../enums/Drive Case Enum.ctl"/>
 		<Item Name="Drive_Code_Bundle.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Bundle.ctl"/>
 		<Item Name="Drive_Loop_Gyro_Angle.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Loop_Gyro_Angle.vi"/>
@@ -166,8 +168,9 @@ AddOutputFilter chunkFilter
 		<Item Name="IMUOrientOpen.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/IMUOrientOpen.vi"/>
 		<Item Name="MatchTimeNotifications.ctl" Type="VI" URL="../MatchTimeNotifications.ctl"/>
 		<Item Name="NotifierConstants.ctl" Type="VI" URL="../NotifierConstants.ctl"/>
-		<Item Name="Periodic References.lvlib" Type="Library" URL="../Periodic References.lvlib"/>
+		<Item Name="Notifiers.lvlib" Type="Library" URL="../Notifiers.lvlib"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="Sensors.lvlib" Type="Library" URL="../Sensors.lvlib"/>
 		<Item Name="Vision Variables.lvlib" Type="Library" URL="../Vision Variables.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
