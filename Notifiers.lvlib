@@ -38,4 +38,15 @@
 		<Property Name="typedefPath1" Type="PathRel">../FMS Commands.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"?7A!!!"9!A!!!!!!#!$Q!]1!!!!!!!!!"%%:.5S"$&lt;WVN97ZE=SZD&gt;'Q!)U!7!!-&amp;5WBP&lt;X1'67YN3G&amp;N"&amp;.U&lt;X!!"%6O&gt;7U!!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="Intake Notifier" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typedefName1" Type="Str">FMS Commands.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../FMS Commands.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"?7A!!!"9!A!!!!!!#!$Q!]1!!!!!!!!!"%%:.5S"$&lt;WVN97ZE=SZD&gt;'Q!)U!7!!-&amp;5WBP&lt;X1'67YN3G&amp;N"&amp;.U&lt;X!!"%6O&gt;7U!!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
+	</Item>
 </Library>
