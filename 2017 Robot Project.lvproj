@@ -68,6 +68,7 @@
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
 		<Property Name="host.TargetCPUID" Type="UInt">8</Property>
 		<Property Name="host.TargetOSID" Type="UInt">8</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.DoNotReboot" Type="Bool">true</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
@@ -166,9 +167,9 @@ AddOutputFilter chunkFilter
 		<Item Name="DriverController.lvlib" Type="Library" URL="../DriverController.lvlib"/>
 		<Item Name="FMS Commands.ctl" Type="VI" URL="../FMS Commands.ctl"/>
 		<Item Name="FMSCount.vi" Type="VI" URL="../FMSCount.vi"/>
+		<Item Name="NotifierConstants.ctl" Type="VI" URL="../NotifierConstants.ctl"/>
 		<Item Name="IMUOrientOpen.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/IMUOrientOpen.vi"/>
 		<Item Name="MatchTimeNotifications.ctl" Type="VI" URL="../MatchTimeNotifications.ctl"/>
-		<Item Name="NotifierConstants.ctl" Type="VI" URL="../NotifierConstants.ctl"/>
 		<Item Name="Notifiers.lvlib" Type="Library" URL="../Notifiers.lvlib"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Sensors.lvlib" Type="Library" URL="../Sensors.lvlib"/>
