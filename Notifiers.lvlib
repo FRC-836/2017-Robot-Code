@@ -4,6 +4,17 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Drive Command Notifier" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typedefName1" Type="Str">Drive Commands.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../../Test 2/2017-Test-Code/Drive Commands.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"O;A!!!"9!A!!!!!!#!%Q!]1!!!!!!!!!"%E2S;8:F)%.P&lt;7VB&lt;G2T,G.U&lt;!!R!"9!"!:.97ZV97Q)2W6U)%&gt;F98)+5W.P=G5A2W6B=AJ"&lt;'FH&lt;C"3&lt;X"F!!!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="Drive DevRef Notifier" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
