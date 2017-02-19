@@ -8,9 +8,11 @@
 	<Property Name="varPersistentID:{12EF759F-B260-40F9-BDB1-85AE4C2C549E}" Type="Ref">/Target/DriverController.lvlib/Y</Property>
 	<Property Name="varPersistentID:{177BFD3A-5351-4619-A050-D55B94CF31B2}" Type="Ref">/Target/Notifiers.lvlib/GearShift Control DevRef</Property>
 	<Property Name="varPersistentID:{1F19F06E-F8AF-478B-998E-C519E909E4A4}" Type="Ref">/Target/Notifiers.lvlib/Drive Loop Cluster</Property>
+	<Property Name="varPersistentID:{2691705A-F617-4271-8CE7-08580A2BB9C6}" Type="Ref">/Target/Sensors.lvlib/Right Encoder Rate</Property>
 	<Property Name="varPersistentID:{2FA97F6A-32EF-40B4-86FB-2016E5CA35EA}" Type="Ref">/Target/DriverController.lvlib/LT</Property>
 	<Property Name="varPersistentID:{30CA141F-F535-45E9-9C68-D091E3EA8728}" Type="Ref">/Target/DriverController.lvlib/LeftStickY</Property>
 	<Property Name="varPersistentID:{37C9F8C7-0025-45F3-A15D-74C6749A0A3A}" Type="Ref">/Target/Notifiers.lvlib/Drive Reference Notifier</Property>
+	<Property Name="varPersistentID:{4027C956-0881-4B6D-B99E-07E649A50662}" Type="Ref">/Target/Sensors.lvlib/Left Encoder Rate</Property>
 	<Property Name="varPersistentID:{41861394-51DF-4510-A55B-1BEC9CA22227}" Type="Ref">/Target/Sensors.lvlib/Body IMU Yaw</Property>
 	<Property Name="varPersistentID:{48384645-B910-4000-8A5C-671DAAFD671B}" Type="Ref">/Target/Notifiers.lvlib/Drive Command Notifier</Property>
 	<Property Name="varPersistentID:{489A0870-2954-44B5-8A85-E4C857835794}" Type="Ref">/Target/Notifiers.lvlib/Intake Notifier</Property>
@@ -27,6 +29,7 @@
 	<Property Name="varPersistentID:{9839E07B-01E1-4415-B463-17C7B1063536}" Type="Ref">/Target/DriverController.lvlib/RT</Property>
 	<Property Name="varPersistentID:{99F42768-3FA7-4DF2-8ED2-26024137FE82}" Type="Ref">/Target/DriverController.lvlib/X</Property>
 	<Property Name="varPersistentID:{9CECDBC6-ABEA-4AB1-9ADB-CCDF2DC64CC8}" Type="Ref">/Target/DriverController.lvlib/LB</Property>
+	<Property Name="varPersistentID:{9DF32953-4C4F-43A9-892E-580B183189D2}" Type="Ref">/Target/Sensors.lvlib/Right Encoder Distance</Property>
 	<Property Name="varPersistentID:{A29F065B-F44D-4225-89C8-075D5D31C24D}" Type="Ref">/Target/Sensors.lvlib/Turret IMU Yaw Wind</Property>
 	<Property Name="varPersistentID:{A86D6F8E-9594-4701-9EC2-350A0DD44E42}" Type="Ref">/Target/Sensors.lvlib/Sonar Distance</Property>
 	<Property Name="varPersistentID:{AAE22D01-714A-4349-8DB2-A3C253E5B8E6}" Type="Ref">/Target/DriverController.lvlib/A</Property>
@@ -238,6 +241,8 @@ AddOutputFilter chunkFilter
 				<Item Name="Drive_Loop_Do_Nothing.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Do_Nothing.vi"/>
 				<Item Name="Drive_Loop_Command.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Loop_Command.vi"/>
 				<Item Name="Stable.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Stable.vi"/>
+				<Item Name="Pulse_Stretch_&amp;_Delay.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Pulse_Stretch_&amp;_Delay.vi"/>
+				<Item Name="De-Bounce_or_Delay.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/De-Bounce_or_Delay.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -762,6 +767,9 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesFRCAutomaticValuePublisher.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRCAutomaticValuePublisher.vi"/>
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
+				<Item Name="NI_AAL_Angle.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_Angle.lvlib"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -788,6 +796,9 @@ AddOutputFilter chunkFilter
 			<Item Name="RPM2FF.vi" Type="VI" URL="../../Testing_Project/RPM2FF.vi"/>
 			<Item Name="Shooter-firstVI.vi" Type="VI" URL="../First Level VIs/Shooter-firstVI.vi"/>
 			<Item Name="Turret-firstVI.vi" Type="VI" URL="../First Level VIs/Turret-firstVI.vi"/>
+			<Item Name="TurretStates.ctl" Type="VI" URL="../../../Test 2/2017-Test-Code/TurretStates.ctl"/>
+			<Item Name="RadianWind2Wrap.vi" Type="VI" URL="../../../Testing/2017-Test-Code/Test Position/RadianWind2Wrap.vi"/>
+			<Item Name="ArcAndTheta.vi" Type="VI" URL="../../../Testing/2017-Test-Code/Test Position/ArcAndTheta.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
