@@ -6,7 +6,6 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Drive Command Notifier" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">1</Property>
@@ -15,12 +14,12 @@
 		<Property Name="typedefPath1" Type="PathRel">../Drive Commands.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"U=!!!!"9!A!!!!!!#!&amp;)!]1!!!!!!!!!"%E2S;8:F)%.P&lt;7VB&lt;G2T,G.U&lt;!!X1"9!"!:.97ZV97Q)2W6U)%&gt;F98)+5W.P=G5A2W6B=AJ"&lt;'FH&lt;C"3&lt;X"F!!2&amp;&lt;H6N!!!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="Drive DevRef Notifier" Type="Variable">
+	<Item Name="Drive Reference Notifier" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="numTypedefs" Type="UInt">7</Property>
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">Camera_Cluster.ctl</Property>
 		<Property Name="typedefName2" Type="Str">Drive_Code_Bundle.ctl</Property>
@@ -36,7 +35,7 @@
 		<Property Name="typedefPath5" Type="PathRel">/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Code_PID_Bundle.ctl</Property>
 		<Property Name="typedefPath6" Type="PathRel">/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Logging_Data.ctl</Property>
 		<Property Name="typedefPath7" Type="PathRel">/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Sensor_Cluster.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!/ZN1-!!"9!A!!!!!!G!!5!#A!!'%"Q!#%!!1!!$%&gt;Z=G]A5F1A2EF'4Q!!%U!+!!R(?8*P)%.V=H*F&lt;H1!!!^!#A!*2XFS&lt;S")&lt;WRE!":!5!!$!!%!!A!$#5&gt;Z=G]A2'&amp;U91!;1(!!)1!"!!!027ZD&lt;W2F=C"36#"'35:0!"6!#A!027ZD&lt;W2F=C"$&gt;8*S:7ZU!".!#A!-27ZD&lt;W2F=C")&lt;WRE!!!;1&amp;!!!Q!&amp;!!9!"QR&amp;&lt;G.P:'6S)%2B&gt;'%!!!V!#A!')%&amp;O:WRF!!!+1#%&amp;6G&amp;M;71!#A"1!!)!#1!+!"J!=!!B!!%!#QZ$97VF=G%A5F1A2EF'4Q!!'E"1!!)!#1!+$E.B&lt;76S93"$&gt;8*S:7ZU!!!71&amp;!!!A!-!!U,1W&amp;N:8*B)%2B&gt;'%!'%"1!!-!"!!)!!Y,5W6O=W^S)%2B&gt;'%!?U!7!!E+2']A4G^U;'FO:Q:.97ZV97Q12(*J&gt;G5A1W^O&gt;'FO&gt;7^V=Q25&gt;8*O$E2S;8:F)%2J=X2B&lt;G.F$5BP&lt;'1A5'^T;82J&lt;WY)3'^M:#":98=.2G^M&lt;'^X)%.B&lt;76S91Z5&gt;8*O)(2P)%.B&lt;76S91!!"U.P&lt;7VB&lt;G1!%5!+!!N198*B&lt;76U:8)A11!21!I!#V"B=G&amp;N:82F=C"#!"&amp;!#A!,5'&amp;S97VF&gt;'6S)%-!$E!B#5&amp;C=W^M&gt;82F0Q!1!&amp;!!"1!1!"%!%A!4!"1!)%"Q!#%!!1!6&amp;52S;8:F)%.P&lt;7VB&lt;G1A=H1A:GFG&lt;Q!41!I!$52F=WFS:71A17ZH&lt;'5!&amp;5!+!!^%:8.J=G6E)%6O9W^E:8)!$!"1!!-!%!!8!"A!'%"Q!#%!!1!:$%RP:W&gt;J&lt;G=A2'&amp;U91!!(5!+!":Q=G^Q&lt;X*U;7^O97QA:W&amp;J&lt;C!I3W-J!!!&gt;1!I!&amp;WFO&gt;'6H=G&amp;M)(2J&lt;75A+&amp;2J,#"N;7YJ!"^!#A!::'6S;8:B&gt;'FW:3"U;7VF)#B5:#QA&lt;7FO+1!C1&amp;!!!Q!&lt;!"Q!(26:98=M)%2S;8:J&lt;G=A5X2S97FH;(1!)%"1!!-!'Q!=!"U377&amp;X,#")&lt;WRE;7ZH)&amp;.U;7RM!!!I1&amp;!!!Q!&lt;!"Q!(2J%;8.U97ZD:3QA2(*J&gt;GFO:S"4&gt;(*B;7&gt;I&gt;!!!*%"1!!-!'Q!=!"U82'FT&gt;'&amp;O9W5M)%BP&lt;'2J&lt;G=A5X2J&lt;'Q!'%"1!!1!(A!@!#!!)1F1351A2W&amp;J&lt;H-!&amp;E"Q!"%!!1!C#F"*2#"6='2B&gt;'5!!":!5!!%!!]!&amp;A!;!#-(1WRV=X2F=A!+!(!!%1!"!#1!!1!F!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!43TA1!!"9!A!!!!!!G!!5!#A!!'%"Q!#%!!1!!$%&gt;Z=G]A5F1A2EF'4Q!!%U!+!!R(?8*P)%.V=H*F&lt;H1!!!^!#A!*2XFS&lt;S")&lt;WRE!":!5!!$!!%!!A!$#5&gt;Z=G]A2'&amp;U91!;1(!!)1!"!!!027ZD&lt;W2F=C"36#"'35:0!"6!#A!027ZD&lt;W2F=C"$&gt;8*S:7ZU!".!#A!-27ZD&lt;W2F=C")&lt;WRE!!!;1&amp;!!!Q!&amp;!!9!"QR&amp;&lt;G.P:'6S)%2B&gt;'%!!!V!#A!')%&amp;O:WRF!!!+1#%&amp;6G&amp;M;71!+1$R!!!!!!!!!!%31W&amp;N:8*B8U.M&gt;8.U:8)O9X2M!!Y!5!!#!!E!#A!;1(!!)1!"!!M/1W&amp;N:8*B)&amp;*5)%:*2E]!!$E!]1!!!!!!!!!"%E.B&lt;76S96^$&lt;(6T&gt;'6S,G.U&lt;!!?1&amp;!!!A!*!!I/1W&amp;N:8*B)%.V=H*F&lt;H1!!":!5!!#!!Q!$1N$97VF=G%A2'&amp;U91!X!0%!!!!!!!!!!2*4:7ZT&lt;X*@1WRV=X2F=CZD&gt;'Q!(%"1!!-!"!!)!!Y,5W6O=W^S)%2B&gt;'%!LA$R!!!!!!!!!!%72(*J&gt;G6@1W^E:6^$&lt;WVN97ZE,G.U&lt;!#01"9!#AJ%&lt;S"/&lt;X2I;7ZH"EVB&lt;H6B&lt;""%=GFW:3"$&lt;WZU;7ZV&lt;X6T"&amp;2V=GY/2(*J&gt;G5A2'FT&gt;'&amp;O9W5.3'^M:#"1&lt;X.J&gt;'FP&lt;AB)&lt;WRE)&amp;FB&gt;QV'&lt;WRM&lt;X=A1W&amp;N:8*B$F2V=GYA&gt;']A1W&amp;N:8*B$U&amp;Q=(*P97.I)%.B&lt;76S91!!"U.P&lt;7VB&lt;G1!%5!+!!N198*B&lt;76U:8)A11!21!I!#V"B=G&amp;N:82F=C"#!"&amp;!#A!,5'&amp;S97VF&gt;'6S)%-!$E!B#5&amp;C=W^M&gt;82F0Q!U!0%!!!!!!!!!!2&gt;%=GFW:6^$&lt;W2F8UZP&gt;'FG;76S,G.U&lt;!!5!&amp;!!"1!1!"%!%A!4!"1!)%"Q!#%!!1!6&amp;52S;8:F)%.P&lt;7VB&lt;G1A=H1A:GFG&lt;Q!41!I!$52F=WFS:71A17ZH&lt;'5!&amp;5!+!!^%:8.J=G6E)%6O9W^E:8)!+1$R!!!!!!!!!!%14'^H:WFO:V^%982B,G.U&lt;!!1!&amp;!!!Q!1!"=!'!!91(!!)1!"!"E-4'^H:WFO:S"%982B!!!&gt;1!I!&amp;H"S&lt;X"P=H2J&lt;WZB&lt;#"H97FO)#B,9SE!!"V!#A!8;7ZU:7&gt;S97QA&gt;'FN:3!I6'EM)'VJ&lt;CE!(U!+!"FE:8*J&gt;G&amp;U;8:F)(2J&lt;75A+&amp;2E,#"N;7YJ!#*!5!!$!"M!(!!&gt;&amp;6FB&gt;SQA2(*J&gt;GFO:S"4&gt;(*B;7&gt;I&gt;!!A1&amp;!!!Q!&lt;!"Q!(2*:98=M)%BP&lt;'2J&lt;G=A5X2J&lt;'Q!!#B!5!!$!"M!(!!&gt;'E2J=X2B&lt;G.F,#"%=GFW;7ZH)&amp;.U=G&amp;J:WBU!!!E1&amp;!!!Q!&lt;!"Q!(2&gt;%;8.U97ZD:3QA3'^M:'FO:S"4&gt;'FM&lt;!!_!0%!!!!!!!!!!2F%=GFW:6^$&lt;W2F8V"*2&amp;^#&gt;7ZE&lt;'5O9X2M!"R!5!!%!"Y!(Q!A!#%*5%F%)%&gt;B;7ZT!":!=!!2!!%!)AJ1351A68"E982F!!!Y!0%!!!!!!!!!!26%=GFW:6^$&lt;W2F8U*V&lt;G2M:3ZD&gt;'Q!'E"1!!1!$Q!7!"I!)Q&gt;$&lt;(6T&gt;'6S!!I!=!!2!!%!*!!"!#5!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="FMS Command Notifier" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
