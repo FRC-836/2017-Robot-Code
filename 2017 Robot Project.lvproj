@@ -2,12 +2,14 @@
 <Project Type="Project" LVVersion="16008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
+	<Property Name="varPersistentID:{03E46513-1CDF-47DC-A9F2-A74C54D9C513}" Type="Ref">/Target/Sensors.lvlib/Left Encoder</Property>
 	<Property Name="varPersistentID:{0A92427A-7C0D-4238-8D02-37B9FB18CDD4}" Type="Ref">/Target/ControlMode.lvlib/Manual Mode?</Property>
 	<Property Name="varPersistentID:{1203DF61-5777-4254-BF20-6AAFCFD1A59F}" Type="Ref">/Target/DriverController.lvlib/RightStickX</Property>
 	<Property Name="varPersistentID:{12EF759F-B260-40F9-BDB1-85AE4C2C549E}" Type="Ref">/Target/DriverController.lvlib/Y</Property>
 	<Property Name="varPersistentID:{2FA97F6A-32EF-40B4-86FB-2016E5CA35EA}" Type="Ref">/Target/DriverController.lvlib/LT</Property>
 	<Property Name="varPersistentID:{30CA141F-F535-45E9-9C68-D091E3EA8728}" Type="Ref">/Target/DriverController.lvlib/LeftStickY</Property>
-	<Property Name="varPersistentID:{37A34315-575D-4244-A94D-D3FB312B9BB0}" Type="Ref">/Target/Notifiers.lvlib/Drive Command Notifier</Property>
+	<Property Name="varPersistentID:{37C9F8C7-0025-45F3-A15D-74C6749A0A3A}" Type="Ref">/Target/Notifiers.lvlib/Drive Reference Notifier</Property>
+	<Property Name="varPersistentID:{48384645-B910-4000-8A5C-671DAAFD671B}" Type="Ref">/Target/Notifiers.lvlib/Drive Command Notifier</Property>
 	<Property Name="varPersistentID:{489A0870-2954-44B5-8A85-E4C857835794}" Type="Ref">/Target/Notifiers.lvlib/Intake Notifier</Property>
 	<Property Name="varPersistentID:{4A767B28-7EA8-4EF7-92EF-54FFA942B631}" Type="Ref">/Target/DriverController.lvlib/Select</Property>
 	<Property Name="varPersistentID:{4D42FDF1-9FDC-4F30-B5FD-BA9E26075C7F}" Type="Ref">/Target/Vision Variables.lvlib/Boiler distance</Property>
@@ -22,9 +24,9 @@
 	<Property Name="varPersistentID:{99F42768-3FA7-4DF2-8ED2-26024137FE82}" Type="Ref">/Target/DriverController.lvlib/X</Property>
 	<Property Name="varPersistentID:{9CECDBC6-ABEA-4AB1-9ADB-CCDF2DC64CC8}" Type="Ref">/Target/DriverController.lvlib/LB</Property>
 	<Property Name="varPersistentID:{A29F065B-F44D-4225-89C8-075D5D31C24D}" Type="Ref">/Target/Sensors.lvlib/Turret IMU Yaw Wind</Property>
-	<Property Name="varPersistentID:{A73CA5C1-825D-40AD-A5A6-B49B6657B134}" Type="Ref">/Target/Notifiers.lvlib/Drive DevRef Notifier</Property>
 	<Property Name="varPersistentID:{A86D6F8E-9594-4701-9EC2-350A0DD44E42}" Type="Ref">/Target/Sensors.lvlib/Sonar Distance</Property>
 	<Property Name="varPersistentID:{AAE22D01-714A-4349-8DB2-A3C253E5B8E6}" Type="Ref">/Target/DriverController.lvlib/A</Property>
+	<Property Name="varPersistentID:{AC864079-BD1D-49C5-AE13-C9B574CB9577}" Type="Ref">/Target/ControlMode.lvlib/HighOnStart</Property>
 	<Property Name="varPersistentID:{C233B3D6-4A7B-4543-94B4-700368619DEF}" Type="Ref">/Target/Vision Variables.lvlib/Gear valid</Property>
 	<Property Name="varPersistentID:{C659E74B-BCA6-44F8-BF4E-68BF523B7B9D}" Type="Ref">/Target/DriverController.lvlib/LeftStickX</Property>
 	<Property Name="varPersistentID:{CB658D26-3E27-4F8F-A260-4F1E4CFDBC4F}" Type="Ref">/Target/DriverController.lvlib/B</Property>
@@ -176,6 +178,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Sensors.lvlib" Type="Library" URL="../Sensors.lvlib"/>
 		<Item Name="Vision Variables.lvlib" Type="Library" URL="../Vision Variables.lvlib"/>
+		<Item Name="Drive_Loop_Approach_Camera.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Approach_Camera.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Bump_Counter.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Bump_Counter.vi"/>
@@ -185,19 +188,10 @@ AddOutputFilter chunkFilter
 				<Item Name="Drive_Code_Notifier.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Notifier.ctl"/>
 				<Item Name="Drive_Code_PID_Bundle.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Code_PID_Bundle.ctl"/>
 				<Item Name="Drive_Loop_Cheesey_Drive.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Cheesey_Drive.vi"/>
-				<Item Name="Drive_Loop_Command.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Loop_Command.vi"/>
 				<Item Name="Drive_Loop_Control_Loop.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Loop_Control_Loop.vi"/>
-				<Item Name="Drive_Loop_Do_Nothing.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Do_Nothing.vi"/>
-				<Item Name="Drive_Loop_Drive_Continuous.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Drive_Continuous.vi"/>
-				<Item Name="Drive_Loop_Drive_Distance.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Drive_Distance.vi"/>
 				<Item Name="Drive_Loop_Encoder_Count.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Loop_Encoder_Count.vi"/>
 				<Item Name="Drive_Loop_Follow_Camera.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Follow_Camera.vi"/>
-				<Item Name="Drive_Loop_Hold_Position.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Hold_Position.vi"/>
-				<Item Name="Drive_Loop_Hold_Yaw.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Hold_Yaw.vi"/>
 				<Item Name="Drive_Loop_Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Loop_Initialize.vi"/>
-				<Item Name="Drive_Loop_Tank_Drive.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Tank_Drive.vi"/>
-				<Item Name="Drive_Loop_Turn.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Turn.vi"/>
-				<Item Name="Drive_Loop_Turn_to_Camera.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Turn_to_Camera.vi"/>
 				<Item Name="Drive_Types.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Types.ctl"/>
 				<Item Name="hmi_cheesy_drive.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/hmi_cheesy_drive.vi"/>
 				<Item Name="IMUOrientGetSetRefNum.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/IMUOrientGetSetRefNum.vi"/>
@@ -227,6 +221,16 @@ AddOutputFilter chunkFilter
 				<Item Name="Stable.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Stable.vi"/>
 				<Item Name="Status.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/Status.vi"/>
 				<Item Name="Wind2Wrap.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/Wind2Wrap.vi"/>
+				<Item Name="Drive_Loop_Camera_Sensor.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Loop_Camera_Sensor.vi"/>
+				<Item Name="Drive_Loop_Turn.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Turn.vi"/>
+				<Item Name="Drive_Loop_Turn_to_Camera.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Turn_to_Camera.vi"/>
+				<Item Name="Drive_Loop_Tank_Drive.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Tank_Drive.vi"/>
+				<Item Name="Drive_Loop_Hold_Yaw.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Hold_Yaw.vi"/>
+				<Item Name="Drive_Loop_Hold_Position.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Hold_Position.vi"/>
+				<Item Name="Drive_Loop_Drive_Distance.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Drive_Distance.vi"/>
+				<Item Name="Drive_Loop_Drive_Continuous.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Drive_Continuous.vi"/>
+				<Item Name="Drive_Loop_Do_Nothing.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Do_Nothing.vi"/>
+				<Item Name="Drive_Loop_Command.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Loop_Command.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
