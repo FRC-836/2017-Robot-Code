@@ -6,14 +6,18 @@
 	<Property Name="varPersistentID:{0A92427A-7C0D-4238-8D02-37B9FB18CDD4}" Type="Ref">/Target/ControlMode.lvlib/Manual Mode?</Property>
 	<Property Name="varPersistentID:{1203DF61-5777-4254-BF20-6AAFCFD1A59F}" Type="Ref">/Target/DriverController.lvlib/RightStickX</Property>
 	<Property Name="varPersistentID:{12EF759F-B260-40F9-BDB1-85AE4C2C549E}" Type="Ref">/Target/DriverController.lvlib/Y</Property>
+	<Property Name="varPersistentID:{177BFD3A-5351-4619-A050-D55B94CF31B2}" Type="Ref">/Target/Notifiers.lvlib/GearShift Control DevRef</Property>
+	<Property Name="varPersistentID:{1F19F06E-F8AF-478B-998E-C519E909E4A4}" Type="Ref">/Target/Notifiers.lvlib/Drive Loop Cluster</Property>
 	<Property Name="varPersistentID:{2FA97F6A-32EF-40B4-86FB-2016E5CA35EA}" Type="Ref">/Target/DriverController.lvlib/LT</Property>
 	<Property Name="varPersistentID:{30CA141F-F535-45E9-9C68-D091E3EA8728}" Type="Ref">/Target/DriverController.lvlib/LeftStickY</Property>
 	<Property Name="varPersistentID:{37C9F8C7-0025-45F3-A15D-74C6749A0A3A}" Type="Ref">/Target/Notifiers.lvlib/Drive Reference Notifier</Property>
+	<Property Name="varPersistentID:{41861394-51DF-4510-A55B-1BEC9CA22227}" Type="Ref">/Target/Sensors.lvlib/Body IMU Yaw</Property>
 	<Property Name="varPersistentID:{48384645-B910-4000-8A5C-671DAAFD671B}" Type="Ref">/Target/Notifiers.lvlib/Drive Command Notifier</Property>
 	<Property Name="varPersistentID:{489A0870-2954-44B5-8A85-E4C857835794}" Type="Ref">/Target/Notifiers.lvlib/Intake Notifier</Property>
 	<Property Name="varPersistentID:{4A767B28-7EA8-4EF7-92EF-54FFA942B631}" Type="Ref">/Target/DriverController.lvlib/Select</Property>
 	<Property Name="varPersistentID:{4D42FDF1-9FDC-4F30-B5FD-BA9E26075C7F}" Type="Ref">/Target/Vision Variables.lvlib/Boiler distance</Property>
 	<Property Name="varPersistentID:{4E7FCFA2-C635-4AA2-849A-8E131BFADC1B}" Type="Ref">/Target/Notifiers.lvlib/FMS Command Notifier</Property>
+	<Property Name="varPersistentID:{4F544AAD-3940-48D7-BE16-761A040CDC9C}" Type="Ref">/Target/Notifiers.lvlib/GearShift Command DevRef</Property>
 	<Property Name="varPersistentID:{548019F2-B788-4E59-8FB8-E2F73D491783}" Type="Ref">/Target/Vision Variables.lvlib/Gear yaw delta</Property>
 	<Property Name="varPersistentID:{592C537F-625A-4347-B495-5B1102133610}" Type="Ref">/Target/Vision Variables.lvlib/Gear Distance</Property>
 	<Property Name="varPersistentID:{641E7E1D-BA73-4F9B-8E74-05228A0E7EBD}" Type="Ref">/Target/Vision Variables.lvlib/Boiler Yaw delta</Property>
@@ -27,7 +31,9 @@
 	<Property Name="varPersistentID:{A86D6F8E-9594-4701-9EC2-350A0DD44E42}" Type="Ref">/Target/Sensors.lvlib/Sonar Distance</Property>
 	<Property Name="varPersistentID:{AAE22D01-714A-4349-8DB2-A3C253E5B8E6}" Type="Ref">/Target/DriverController.lvlib/A</Property>
 	<Property Name="varPersistentID:{AC864079-BD1D-49C5-AE13-C9B574CB9577}" Type="Ref">/Target/ControlMode.lvlib/HighOnStart</Property>
+	<Property Name="varPersistentID:{C010D331-AD9A-4909-A15E-3A9FDA8E94C9}" Type="Ref">/Target/Notifiers.lvlib/Gear Receiver Command DevRef</Property>
 	<Property Name="varPersistentID:{C233B3D6-4A7B-4543-94B4-700368619DEF}" Type="Ref">/Target/Vision Variables.lvlib/Gear valid</Property>
+	<Property Name="varPersistentID:{C3A7F140-B8A3-499C-A36C-F9DAF921420D}" Type="Ref">/Target/Notifiers.lvlib/GearReceive Control DevRef</Property>
 	<Property Name="varPersistentID:{C659E74B-BCA6-44F8-BF4E-68BF523B7B9D}" Type="Ref">/Target/DriverController.lvlib/LeftStickX</Property>
 	<Property Name="varPersistentID:{CB658D26-3E27-4F8F-A260-4F1E4CFDBC4F}" Type="Ref">/Target/DriverController.lvlib/B</Property>
 	<Property Name="varPersistentID:{D2FC227C-C4A0-44A9-9E84-D2DB493EEC3B}" Type="Ref">/Target/DriverController.lvlib/RightStickY</Property>
@@ -218,7 +224,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Setup State.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/Setup State.ctl"/>
 				<Item Name="Signal_Pulse.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Signal_Pulse.vi"/>
 				<Item Name="Solenoid_Control_Loop.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Pneumatics/Support_Code/Solenoid_Control_Loop.ctl"/>
-				<Item Name="Stable.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Stable.vi"/>
+				<Item Name="Stable.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Stable.vi"/>
 				<Item Name="Status.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/Status.vi"/>
 				<Item Name="Wind2Wrap.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/Wind2Wrap.vi"/>
 				<Item Name="Drive_Loop_Camera_Sensor.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Loop_Camera_Sensor.vi"/>
@@ -231,6 +237,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Drive_Loop_Drive_Continuous.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Drive_Continuous.vi"/>
 				<Item Name="Drive_Loop_Do_Nothing.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Do_Nothing.vi"/>
 				<Item Name="Drive_Loop_Command.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Loop_Command.vi"/>
+				<Item Name="Stable.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Stable.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -741,9 +748,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_SolenoidOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidOpen.vi"/>
 				<Item Name="WPI_SolenoidOpenDouble.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidOpenDouble.vi"/>
 				<Item Name="WPI_SolenoidOpenSingle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidOpenSingle.vi"/>
-				<Item Name="WPI_SolenoidRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidRefNum Registry Get.vi"/>
 				<Item Name="WPI_SolenoidRefNum Registry Read Name.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidRefNum Registry Read Name.vi"/>
-				<Item Name="WPI_SolenoidRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidRefNum Registry Set.vi"/>
 				<Item Name="WPI_SolenoidSafetyCheck.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidSafetyCheck.vi"/>
 				<Item Name="WPI_SolenoidSafetyError.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidSafetyError.vi"/>
 				<Item Name="WPI_SolenoidSafetyUpdate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidSafetyUpdate.vi"/>
