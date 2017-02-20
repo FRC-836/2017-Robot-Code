@@ -80,6 +80,24 @@
 		<Property Name="typedefPath2" Type="PathRel">/&lt;userlib&gt;/836-libraries/Pneumatics/Support_Code/Pneumatics_Status.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$FY1!!!"9!A!!!!!!&amp;!&amp;)!]1!!!!!!!!!"&amp;F"O:86N982J9X.@1W^N&lt;7&amp;O:#ZD&gt;'Q!-U!7!!1(4G^U;'FO:Q&gt;'&lt;X*X98*E"V*F&gt;G6S=W5'6'^H:WRF!!!(1W^N&lt;7&amp;O:!!31(!!%1!"!!!(1W^N&lt;7&amp;O:!"*!0%!!!!!!!!!!261&lt;G6V&lt;7&amp;U;7.T8V.U982V=SZD&gt;'Q!+U!7!!-(2G^S&gt;W&amp;S:!&gt;3:8:F=H.F"EVP&gt;GFO:Q!!"F.U982V=Q!!%E"Q!")!!1!#"F.U982V=Q!!#A"1!!)!!1!$!!%!"!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="Gear Shift Control Loop" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">5</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typedefName1" Type="Str">Pneumatics_Command.ctl</Property>
+		<Property Name="typedefName2" Type="Str">Pneumatics_Position.ctl</Property>
+		<Property Name="typedefName3" Type="Str">WPI_SolenoidChannel.ctl</Property>
+		<Property Name="typedefName4" Type="Str">WPI_SolenoidDevRef.ctl</Property>
+		<Property Name="typedefName5" Type="Str">WPI_SolenoidValue.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">/&lt;userlib&gt;/836-libraries/Pneumatics/Support_Code/Pneumatics_Command.ctl</Property>
+		<Property Name="typedefPath2" Type="PathRel">/&lt;userlib&gt;/836-libraries/Pneumatics/Support_Code/Pneumatics_Position.ctl</Property>
+		<Property Name="typedefPath3" Type="PathRel">/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidChannel.ctl</Property>
+		<Property Name="typedefPath4" Type="PathRel">/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidDevRef.ctl</Property>
+		<Property Name="typedefPath5" Type="PathRel">/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidValue.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!-X-Q-!!"9!A!!!!!!/!&amp;)!]1!!!!!!!!!"&amp;F"O:86N982J9X.@1W^N&lt;7&amp;O:#ZD&gt;'Q!-U!7!!1(4G^U;'FO:Q&gt;'&lt;X*X98*E"V*F&gt;G6S=W5'6'^H:WRF!!!(1W^N&lt;7&amp;O:!!=1(!!%1!"!!!11W^O&gt;(*P&lt;#"/&lt;X2J:GFF=A!!41$R!!!!!!!!!!%85'ZF&gt;7VB&gt;'FD=V^1&lt;X.J&gt;'FP&lt;CZD&gt;'Q!,5!7!!)(2G^S&gt;W&amp;S:!&gt;3:8:F=H.F!""*&lt;GFU;7&amp;M)&amp;"P=WFU;7^O!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!$!!1!"1F%:8:4&gt;'&amp;U&gt;8-!(U!&amp;!"F1&lt;G6V&lt;7&amp;U;7.T)%.P&lt;H2S&lt;WQA47^E&gt;7RF!+5!]=]8(8Y!!!!"&amp;V&gt;136^4&lt;WRF&lt;G^J:%.I97ZO:7QO9X2M!)6!&amp;1!*#F.P&lt;'6O&lt;WFE)$!+5W^M:7ZP;71A-1J4&lt;WRF&lt;G^J:#!S#F.P&lt;'6O&lt;WFE)$-+5W^M:7ZP;71A.!J4&lt;WRF&lt;G^J:#!V#F.P&lt;'6O&lt;WFE)$9+5W^M:7ZP;71A.Q&gt;*&lt;H:B&lt;'FE!"B'&lt;X*X98*E)&amp;.P&lt;'6O&lt;WFE)%.I97ZO:7Q!!+5!]=]8(8Y!!!!"&amp;V&gt;136^4&lt;WRF&lt;G^J:%.I97ZO:7QO9X2M!)6!&amp;1!*#F.P&lt;'6O&lt;WFE)$!+5W^M:7ZP;71A-1J4&lt;WRF&lt;G^J:#!S#F.P&lt;'6O&lt;WFE)$-+5W^M:7ZP;71A.!J4&lt;WRF&lt;G^J:#!V#F.P&lt;'6O&lt;WFE)$9+5W^M:7ZP;71A.Q&gt;*&lt;H:B&lt;'FE!"B3:8:F=H.F)&amp;.P&lt;'6O&lt;WFE)%.I97ZO:7Q!!%%!]=]8(AI!!!!"&amp;F&gt;136^4&lt;WRF&lt;G^J:%2F&gt;F*F:CZD&gt;'Q!)E"1!!1!"A!(!!A!#1Z4&lt;WRF&lt;G^J:%2F&gt;F*F:A!!2Q$RR6)69A!!!!%66V"*8V.P&lt;'6O&lt;WFE6G&amp;M&gt;75O9X2M!#F!&amp;A!%!U^G:A*0&lt;A&gt;'&lt;X*X98*E"V*F&gt;G6S=W5!!!6797RV:1!71(!!)1!"!!M,5X2B&gt;(6T)%RP&lt;X!!$A"1!!1!!1!#!!I!$!!"!!U!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="GearReceive Control DevRef" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
@@ -109,24 +127,6 @@
 		<Property Name="typedefPath1" Type="PathRel">/&lt;userlib&gt;/836-libraries/Pneumatics/Support_Code/Pneumatics_Command.ctl</Property>
 		<Property Name="typedefPath2" Type="PathRel">/&lt;userlib&gt;/836-libraries/Pneumatics/Support_Code/Pneumatics_Status.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$FY1!!!"9!A!!!!!!&amp;!&amp;)!]1!!!!!!!!!"&amp;F"O:86N982J9X.@1W^N&lt;7&amp;O:#ZD&gt;'Q!-U!7!!1(4G^U;'FO:Q&gt;'&lt;X*X98*E"V*F&gt;G6S=W5'6'^H:WRF!!!(1W^N&lt;7&amp;O:!!31(!!%1!"!!!(1W^N&lt;7&amp;O:!"*!0%!!!!!!!!!!261&lt;G6V&lt;7&amp;U;7.T8V.U982V=SZD&gt;'Q!+U!7!!-(2G^S&gt;W&amp;S:!&gt;3:8:F=H.F"EVP&gt;GFO:Q!!"F.U982V=Q!!%E"Q!")!!1!#"F.U982V=Q!!#A"1!!)!!1!$!!%!"!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="GearShift Control DevRef" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">5</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typedefName1" Type="Str">Pneumatics_Command.ctl</Property>
-		<Property Name="typedefName2" Type="Str">Pneumatics_Position.ctl</Property>
-		<Property Name="typedefName3" Type="Str">WPI_SolenoidChannel.ctl</Property>
-		<Property Name="typedefName4" Type="Str">WPI_SolenoidDevRef.ctl</Property>
-		<Property Name="typedefName5" Type="Str">WPI_SolenoidValue.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">/&lt;userlib&gt;/836-libraries/Pneumatics/Support_Code/Pneumatics_Command.ctl</Property>
-		<Property Name="typedefPath2" Type="PathRel">/&lt;userlib&gt;/836-libraries/Pneumatics/Support_Code/Pneumatics_Position.ctl</Property>
-		<Property Name="typedefPath3" Type="PathRel">/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidChannel.ctl</Property>
-		<Property Name="typedefPath4" Type="PathRel">/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidDevRef.ctl</Property>
-		<Property Name="typedefPath5" Type="PathRel">/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidValue.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!-X-Q-!!"9!A!!!!!!/!&amp;)!]1!!!!!!!!!"&amp;F"O:86N982J9X.@1W^N&lt;7&amp;O:#ZD&gt;'Q!-U!7!!1(4G^U;'FO:Q&gt;'&lt;X*X98*E"V*F&gt;G6S=W5'6'^H:WRF!!!(1W^N&lt;7&amp;O:!!=1(!!%1!"!!!11W^O&gt;(*P&lt;#"/&lt;X2J:GFF=A!!41$R!!!!!!!!!!%85'ZF&gt;7VB&gt;'FD=V^1&lt;X.J&gt;'FP&lt;CZD&gt;'Q!,5!7!!)(2G^S&gt;W&amp;S:!&gt;3:8:F=H.F!""*&lt;GFU;7&amp;M)&amp;"P=WFU;7^O!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!$!!1!"1F%:8:4&gt;'&amp;U&gt;8-!(U!&amp;!"F1&lt;G6V&lt;7&amp;U;7.T)%.P&lt;H2S&lt;WQA47^E&gt;7RF!+5!]=]8(8Y!!!!"&amp;V&gt;136^4&lt;WRF&lt;G^J:%.I97ZO:7QO9X2M!)6!&amp;1!*#F.P&lt;'6O&lt;WFE)$!+5W^M:7ZP;71A-1J4&lt;WRF&lt;G^J:#!S#F.P&lt;'6O&lt;WFE)$-+5W^M:7ZP;71A.!J4&lt;WRF&lt;G^J:#!V#F.P&lt;'6O&lt;WFE)$9+5W^M:7ZP;71A.Q&gt;*&lt;H:B&lt;'FE!"B'&lt;X*X98*E)&amp;.P&lt;'6O&lt;WFE)%.I97ZO:7Q!!+5!]=]8(8Y!!!!"&amp;V&gt;136^4&lt;WRF&lt;G^J:%.I97ZO:7QO9X2M!)6!&amp;1!*#F.P&lt;'6O&lt;WFE)$!+5W^M:7ZP;71A-1J4&lt;WRF&lt;G^J:#!S#F.P&lt;'6O&lt;WFE)$-+5W^M:7ZP;71A.!J4&lt;WRF&lt;G^J:#!V#F.P&lt;'6O&lt;WFE)$9+5W^M:7ZP;71A.Q&gt;*&lt;H:B&lt;'FE!"B3:8:F=H.F)&amp;.P&lt;'6O&lt;WFE)%.I97ZO:7Q!!%%!]=]8(AI!!!!"&amp;F&gt;136^4&lt;WRF&lt;G^J:%2F&gt;F*F:CZD&gt;'Q!)E"1!!1!"A!(!!A!#1Z4&lt;WRF&lt;G^J:%2F&gt;F*F:A!!2Q$RR6)69A!!!!%66V"*8V.P&lt;'6O&lt;WFE6G&amp;M&gt;75O9X2M!#F!&amp;A!%!U^G:A*0&lt;A&gt;'&lt;X*X98*E"V*F&gt;G6S=W5!!!6797RV:1!71(!!)1!"!!M,5X2B&gt;(6T)%RP&lt;X!!$A"1!!1!!1!#!!I!$!!"!!U!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Intake Notifier" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
