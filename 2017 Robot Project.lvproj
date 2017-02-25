@@ -796,7 +796,7 @@ AddOutputFilter chunkFilter
 			<Item Name="RPM2FF.vi" Type="VI" URL="../../Testing_Project/RPM2FF.vi"/>
 			<Item Name="Shooter-firstVI.vi" Type="VI" URL="../First Level VIs/Shooter-firstVI.vi"/>
 			<Item Name="Turret-firstVI.vi" Type="VI" URL="../First Level VIs/Turret-firstVI.vi"/>
-			<Item Name="TurretStates.ctl" Type="VI" URL="../../../Test 2/2017-Test-Code/TurretStates.ctl"/>
+			<Item Name="TurretStates.ctl" Type="VI" URL="../TurretStates.ctl"/>
 			<Item Name="RadianWind2Wrap.vi" Type="VI" URL="../../../Testing/2017-Test-Code/Test Position/RadianWind2Wrap.vi"/>
 			<Item Name="ArcAndTheta.vi" Type="VI" URL="../../../Testing/2017-Test-Code/Test Position/ArcAndTheta.vi"/>
 		</Item>
@@ -818,6 +818,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
