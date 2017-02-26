@@ -128,6 +128,14 @@
 		<Property Name="typedefPath2" Type="PathRel">/&lt;userlib&gt;/836-libraries/Pneumatics/Support_Code/Pneumatics_Status.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$FY1!!!"9!A!!!!!!&amp;!&amp;)!]1!!!!!!!!!"&amp;F"O:86N982J9X.@1W^N&lt;7&amp;O:#ZD&gt;'Q!-U!7!!1(4G^U;'FO:Q&gt;'&lt;X*X98*E"V*F&gt;G6S=W5'6'^H:WRF!!!(1W^N&lt;7&amp;O:!!31(!!%1!"!!!(1W^N&lt;7&amp;O:!"*!0%!!!!!!!!!!261&lt;G6V&lt;7&amp;U;7.T8V.U982V=SZD&gt;'Q!+U!7!!-(2G^S&gt;W&amp;S:!&gt;3:8:F=H.F"EVP&gt;GFO:Q!!"F.U982V=Q!!%E"Q!")!!1!#"F.U982V=Q!!#A"1!!)!!1!$!!%!"!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="Home!" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!?'A!!!"9!A!!!!!!"!!9!=!!%!!%!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="Intake Notifier" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
@@ -138,5 +146,22 @@
 		<Property Name="typedefName1" Type="Str">FMS Commands.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../FMS Commands.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"?7A!!!"9!A!!!!!!#!$Q!]1!!!!!!!!!"%%:.5S"$&lt;WVN97ZE=SZD&gt;'Q!)U!7!!-&amp;5WBP&lt;X1'67YN3G&amp;N"&amp;.U&lt;X!!"%6O&gt;7U!!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="NeoPixel Controls" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!T,Q!!!"9!A!!!!!!$!!5!"1!!$!"!!!(`````!!!!#A"Q!"%!!1!"!!%!!A!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Shooter Wheel Command" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!G)A!!!"9!A!!!!!!#!!1!)1!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
