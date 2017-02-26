@@ -25,6 +25,7 @@
 	<Property Name="varPersistentID:{5471A433-162C-47E6-AFC5-BCF38A8AB2BF}" Type="Ref">/Target/Notifiers.lvlib/Gear Shift Control Loop</Property>
 	<Property Name="varPersistentID:{548019F2-B788-4E59-8FB8-E2F73D491783}" Type="Ref">/Target/Vision Variables.lvlib/Gear yaw delta</Property>
 	<Property Name="varPersistentID:{592C537F-625A-4347-B495-5B1102133610}" Type="Ref">/Target/Vision Variables.lvlib/Gear Distance</Property>
+	<Property Name="varPersistentID:{5C964F2C-8F9A-48F6-8E24-FBAE646C3237}" Type="Ref">/Target/Vision Variables.lvlib/Boiler Distance Averaged</Property>
 	<Property Name="varPersistentID:{641E7E1D-BA73-4F9B-8E74-05228A0E7EBD}" Type="Ref">/Target/Vision Variables.lvlib/Boiler Yaw delta</Property>
 	<Property Name="varPersistentID:{683A0407-CDAB-4729-BDE0-E4BE6073F803}" Type="Ref">/Target/DriverController.lvlib/Start</Property>
 	<Property Name="varPersistentID:{888610D9-6248-462B-8FD3-35BB2FD7A33C}" Type="Ref">/Target/Sensors.lvlib/Bottom Wheel Steady</Property>
@@ -198,6 +199,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Drive_Loop_Approach_Camera.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Approach_Camera.vi"/>
 		<Item Name="Robot Global Data.vi" Type="VI" URL="../../../../Documents/LabVIEW Data/Test Vision/Robot Global Data.vi"/>
 		<Item Name="Shooting States.ctl" Type="VI" URL="../Shooting States.ctl"/>
+		<Item Name="ShooterLUT.vi" Type="VI" URL="../ShooterLUT.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Bump_Counter.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Bump_Counter.vi"/>
@@ -254,6 +256,7 @@ AddOutputFilter chunkFilter
 				<Item Name="De-Bounce_or_Delay.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/De-Bounce_or_Delay.vi"/>
 				<Item Name="Rate_Selective_Filter.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/Rate_Selective_Filter.vi"/>
 				<Item Name="Pulse_Stretch_&amp;_Delay.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Pulse_Stretch_&amp;_Delay.vi"/>
+				<Item Name="Schmitt_Trigger.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Schmitt_Trigger.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
