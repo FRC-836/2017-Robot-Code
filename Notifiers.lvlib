@@ -156,6 +156,17 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!T,Q!!!"9!A!!!!!!$!!5!"1!!$!"!!!(`````!!!!#A"Q!"%!!1!"!!%!!A!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="Op Light Command" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typedefName1" Type="Str">OpLightNotifier.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../OpLightNotifier.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!\.Q!!!"9!A!!!!!!#!"E!&amp;A!$"5&gt;F98*T"C"#97RM=Q2#&lt;X2I!!!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="Shooter Wheel Command" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
