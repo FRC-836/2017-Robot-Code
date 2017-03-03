@@ -218,6 +218,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Bump Turret Az.vi" Type="VI" URL="../Bump Turret Az.vi"/>
 		<Item Name="Bump_Counter.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Bump_Counter.vi"/>
 		<Item Name="Auto Variables.lvlib" Type="Library" URL="../Auto Variables.lvlib"/>
+		<Item Name="Control 1.ctl" Type="VI" URL="../Control 1.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Bump_Counter.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Bump_Counter.vi"/>
