@@ -8,6 +8,7 @@
 	<Property Name="varPersistentID:{1203DF61-5777-4254-BF20-6AAFCFD1A59F}" Type="Ref">/Target/DriverController.lvlib/RightStickX</Property>
 	<Property Name="varPersistentID:{12EF759F-B260-40F9-BDB1-85AE4C2C549E}" Type="Ref">/Target/DriverController.lvlib/Y</Property>
 	<Property Name="varPersistentID:{14D7CA03-0744-4901-9F33-E37398CC6263}" Type="Ref">/Target/ControlMode.lvlib/Shoot Delay Auto</Property>
+	<Property Name="varPersistentID:{15F335FB-54A3-4452-A4CA-D053833763C5}" Type="Ref">/Target/Base Parameters.lvlib/TurretCCWBound</Property>
 	<Property Name="varPersistentID:{1B76DA10-D631-48FA-B418-71720ECD9F5D}" Type="Ref">/Target/OperatorController.lvlib/Manual Turret?</Property>
 	<Property Name="varPersistentID:{1B856D75-47C6-4E03-A4CF-53513502C521}" Type="Ref">/Target/Sensors.lvlib/Top Wheel Steady</Property>
 	<Property Name="varPersistentID:{1CECE1CF-13D0-4938-9769-7FC46FCAAC59}" Type="Ref">/Target/ControlMode.lvlib/ShootingMode</Property>
@@ -38,12 +39,14 @@
 	<Property Name="varPersistentID:{820CB5DF-0B70-4704-9748-3AE1A881B4EE}" Type="Ref">/Target/Sensors.lvlib/Turret IMU Roll</Property>
 	<Property Name="varPersistentID:{888610D9-6248-462B-8FD3-35BB2FD7A33C}" Type="Ref">/Target/Sensors.lvlib/Bottom Wheel Steady</Property>
 	<Property Name="varPersistentID:{8AABDB6E-9DDE-421C-AEFF-9C9342F67ABD}" Type="Ref">/Target/Sensors.lvlib/High Gear?</Property>
+	<Property Name="varPersistentID:{8E4DD812-06C4-469C-8833-6A1FDDA2B4D2}" Type="Ref">/Target/DriverController.lvlib/DriverDPad</Property>
 	<Property Name="varPersistentID:{95FB8E84-B437-4605-8832-7B3BED0E52E1}" Type="Ref">/Target/Vision Variables.lvlib/Boiler Found</Property>
 	<Property Name="varPersistentID:{9839E07B-01E1-4415-B463-17C7B1063536}" Type="Ref">/Target/DriverController.lvlib/RT</Property>
 	<Property Name="varPersistentID:{98537804-E61D-4461-A574-96D440AC665D}" Type="Ref">/Target/Vision Variables.lvlib/TurretDesiredAngle</Property>
 	<Property Name="varPersistentID:{99F42768-3FA7-4DF2-8ED2-26024137FE82}" Type="Ref">/Target/DriverController.lvlib/X</Property>
 	<Property Name="varPersistentID:{9CECDBC6-ABEA-4AB1-9ADB-CCDF2DC64CC8}" Type="Ref">/Target/DriverController.lvlib/LB</Property>
 	<Property Name="varPersistentID:{9DF32953-4C4F-43A9-892E-580B183189D2}" Type="Ref">/Target/Sensors.lvlib/Right Encoder Distance</Property>
+	<Property Name="varPersistentID:{9DF4F2BD-5189-4E1A-B2FF-6FBF17914585}" Type="Ref">/Target/Sensors.lvlib/TurretInTolerance</Property>
 	<Property Name="varPersistentID:{9F004B54-6447-4F95-AB39-B33005D04531}" Type="Ref">/Target/Notifiers.lvlib/Op Light Command</Property>
 	<Property Name="varPersistentID:{A29F065B-F44D-4225-89C8-075D5D31C24D}" Type="Ref">/Target/Sensors.lvlib/Turret IMU Yaw Wind</Property>
 	<Property Name="varPersistentID:{A86D6F8E-9594-4701-9EC2-350A0DD44E42}" Type="Ref">/Target/Sensors.lvlib/Sonar Distance</Property>
@@ -58,6 +61,7 @@
 	<Property Name="varPersistentID:{C659E74B-BCA6-44F8-BF4E-68BF523B7B9D}" Type="Ref">/Target/DriverController.lvlib/LeftStickX</Property>
 	<Property Name="varPersistentID:{C66A507D-CF1D-47F8-9D08-B67CA14BA03D}" Type="Ref">/Target/Sensors.lvlib/Body IMU Pitch</Property>
 	<Property Name="varPersistentID:{CB658D26-3E27-4F8F-A260-4F1E4CFDBC4F}" Type="Ref">/Target/DriverController.lvlib/B</Property>
+	<Property Name="varPersistentID:{D1BA31BA-C10D-4343-86A5-92B0DFA770A8}" Type="Ref">/Target/Base Parameters.lvlib/TurretCWBound</Property>
 	<Property Name="varPersistentID:{D2FC227C-C4A0-44A9-9E84-D2DB493EEC3B}" Type="Ref">/Target/DriverController.lvlib/RightStickY</Property>
 	<Property Name="varPersistentID:{DA9E61EB-EFD0-47A8-99D9-A9A132A672C3}" Type="Ref">/Target/DriverController.lvlib/RB</Property>
 	<Property Name="varPersistentID:{DD9F8C28-F23D-4F1D-B97E-F78928684CAA}" Type="Ref">/Target/Vision Variables.lvlib/TargetLock</Property>
@@ -93,7 +97,7 @@
 	</Item>
 	<Item Name="Target" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">Target</Property>
-		<Property Name="alias.value" Type="Str">roboRIO-836-FRC.local</Property>
+		<Property Name="alias.value" Type="Str">roborio-836-frc.local</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,76F2;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">76F2</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>
@@ -219,6 +223,8 @@ AddOutputFilter chunkFilter
 		<Item Name="Bump_Counter.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Bump_Counter.vi"/>
 		<Item Name="Auto Variables.lvlib" Type="Library" URL="../Auto Variables.lvlib"/>
 		<Item Name="Control 1.ctl" Type="VI" URL="../Control 1.ctl"/>
+		<Item Name="Turret Improved.vi" Type="VI" URL="../Turret Improved.vi"/>
+		<Item Name="Base Parameters.lvlib" Type="Library" URL="../Base Parameters.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Bump_Counter.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Bump_Counter.vi"/>
@@ -270,7 +276,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Stable.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Stable.vi"/>
 				<Item Name="De-Bounce_or_Delay.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/De-Bounce_or_Delay.vi"/>
 				<Item Name="Rate_Selective_Filter.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/Rate_Selective_Filter.vi"/>
-				<Item Name="Pulse_Stretch_&amp;_Delay.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Pulse_Stretch_&amp;_Delay.vi"/>
 				<Item Name="Drive_Loop_Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Loop_Initialize.vi"/>
 				<Item Name="Pneumatic_Command_Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Pneumatics/Pneumatic_Command_Initialize.vi"/>
 				<Item Name="Pneumatic_Control_Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Pneumatics/Pneumatic_Control_Initialize.vi"/>
@@ -778,7 +783,6 @@ AddOutputFilter chunkFilter
 				<Item Name="NI_AAL_Angle.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_Angle.lvlib"/>
 				<Item Name="i2clib_close.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/i2clib/i2clib_close.vi"/>
 				<Item Name="WPI_I2CClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CClose.vi"/>
-				<Item Name="WPI_Power Get roboRIO Input Voltage and Current.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get roboRIO Input Voltage and Current.vi"/>
 				<Item Name="NT Read Raw.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read Raw.vi"/>
 				<Item Name="NT Read String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read String Array.vi"/>
 				<Item Name="NT Read Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read Numeric Array.vi"/>
@@ -867,7 +871,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
