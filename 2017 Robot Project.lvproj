@@ -14,7 +14,9 @@
 	<Property Name="varPersistentID:{1B856D75-47C6-4E03-A4CF-53513502C521}" Type="Ref">/Target/Sensors.lvlib/Top Wheel Steady</Property>
 	<Property Name="varPersistentID:{1CECE1CF-13D0-4938-9769-7FC46FCAAC59}" Type="Ref">/Target/ControlMode.lvlib/ShootingMode</Property>
 	<Property Name="varPersistentID:{1F19F06E-F8AF-478B-998E-C519E909E4A4}" Type="Ref">/Target/Notifiers.lvlib/Drive Loop Cluster</Property>
+	<Property Name="varPersistentID:{23B8C702-28F1-4247-A8E4-E4A4939DCA99}" Type="Ref">/Target/OperatorController.lvlib/Operator DPad</Property>
 	<Property Name="varPersistentID:{2691705A-F617-4271-8CE7-08580A2BB9C6}" Type="Ref">/Target/Sensors.lvlib/Right Encoder Rate</Property>
+	<Property Name="varPersistentID:{28C195BC-DAC3-4143-96C3-C8CD936F2108}" Type="Ref">/Target/OperatorController.lvlib/OpRightY</Property>
 	<Property Name="varPersistentID:{2FA97F6A-32EF-40B4-86FB-2016E5CA35EA}" Type="Ref">/Target/DriverController.lvlib/LT</Property>
 	<Property Name="varPersistentID:{2FDD830C-9242-4B07-ACA4-7265685DF2C6}" Type="Ref">/Target/OperatorController.lvlib/Turret Speed</Property>
 	<Property Name="varPersistentID:{30CA141F-F535-45E9-9C68-D091E3EA8728}" Type="Ref">/Target/DriverController.lvlib/LeftStickY</Property>
@@ -28,6 +30,7 @@
 	<Property Name="varPersistentID:{4D42FDF1-9FDC-4F30-B5FD-BA9E26075C7F}" Type="Ref">/Target/Vision Variables.lvlib/Boiler distance</Property>
 	<Property Name="varPersistentID:{4E7FCFA2-C635-4AA2-849A-8E131BFADC1B}" Type="Ref">/Target/Notifiers.lvlib/FMS Command Notifier</Property>
 	<Property Name="varPersistentID:{4F544AAD-3940-48D7-BE16-761A040CDC9C}" Type="Ref">/Target/Notifiers.lvlib/GearShift Command DevRef</Property>
+	<Property Name="varPersistentID:{5418BE95-A7BE-469A-9134-D9DAA089C29D}" Type="Ref">/Target/OperatorController.lvlib/OpRightX</Property>
 	<Property Name="varPersistentID:{5471A433-162C-47E6-AFC5-BCF38A8AB2BF}" Type="Ref">/Target/Notifiers.lvlib/Gear Shift Control Loop</Property>
 	<Property Name="varPersistentID:{548019F2-B788-4E59-8FB8-E2F73D491783}" Type="Ref">/Target/Vision Variables.lvlib/Gear yaw delta</Property>
 	<Property Name="varPersistentID:{592C537F-625A-4347-B495-5B1102133610}" Type="Ref">/Target/Vision Variables.lvlib/Gear Distance</Property>
@@ -59,6 +62,7 @@
 	<Property Name="varPersistentID:{C010D331-AD9A-4909-A15E-3A9FDA8E94C9}" Type="Ref">/Target/Notifiers.lvlib/Gear Receiver Command DevRef</Property>
 	<Property Name="varPersistentID:{C233B3D6-4A7B-4543-94B4-700368619DEF}" Type="Ref">/Target/Vision Variables.lvlib/Gear valid</Property>
 	<Property Name="varPersistentID:{C3A7F140-B8A3-499C-A36C-F9DAF921420D}" Type="Ref">/Target/Notifiers.lvlib/GearReceive Control DevRef</Property>
+	<Property Name="varPersistentID:{C4414E1E-6EBE-417F-825C-A1A469D3A923}" Type="Ref">/Target/OperatorController.lvlib/Clear Bumps</Property>
 	<Property Name="varPersistentID:{C568D409-1B25-4637-B332-9A65C2C2C09F}" Type="Ref">/Target/Untitled Library 3.lvlib/setpoint</Property>
 	<Property Name="varPersistentID:{C659E74B-BCA6-44F8-BF4E-68BF523B7B9D}" Type="Ref">/Target/DriverController.lvlib/LeftStickX</Property>
 	<Property Name="varPersistentID:{C66A507D-CF1D-47F8-9D08-B67CA14BA03D}" Type="Ref">/Target/Sensors.lvlib/Body IMU Pitch</Property>
@@ -857,8 +861,6 @@ AddOutputFilter chunkFilter
 			<Item Name="TurretStates.ctl" Type="VI" URL="../TurretStates.ctl"/>
 			<Item Name="ArcAndTheta.vi" Type="VI" URL="../Test Position/ArcAndTheta.vi"/>
 			<Item Name="Square Waves Generator.vi" Type="VI" URL="../Square Waves Generator.vi"/>
-			<Item Name="Drive Data Logger.vi" Type="VI" URL="../../2014-baseline-master/2014-baseline-master/Drive Data Logger.vi"/>
-			<Item Name="Bump_Counter.vi" Type="VI" URL="../Bump_Counter.vi"/>
 			<Item Name="RadianWind2Wrap.vi" Type="VI" URL="../Test Position/RadianWind2Wrap.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -879,7 +881,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">24</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
