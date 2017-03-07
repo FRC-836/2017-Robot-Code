@@ -51,6 +51,7 @@
 	<Property Name="varPersistentID:{9CECDBC6-ABEA-4AB1-9ADB-CCDF2DC64CC8}" Type="Ref">/Target/DriverController.lvlib/LB</Property>
 	<Property Name="varPersistentID:{9DF32953-4C4F-43A9-892E-580B183189D2}" Type="Ref">/Target/Sensors.lvlib/Right Encoder Distance</Property>
 	<Property Name="varPersistentID:{9DF4F2BD-5189-4E1A-B2FF-6FBF17914585}" Type="Ref">/Target/Sensors.lvlib/TurretInTolerance</Property>
+	<Property Name="varPersistentID:{9E066827-7804-43D4-9A16-433EF2BED336}" Type="Ref">/Target/Vision Variables.lvlib/GearXPoints</Property>
 	<Property Name="varPersistentID:{9F004B54-6447-4F95-AB39-B33005D04531}" Type="Ref">/Target/Notifiers.lvlib/Op Light Command</Property>
 	<Property Name="varPersistentID:{A29F065B-F44D-4225-89C8-075D5D31C24D}" Type="Ref">/Target/Sensors.lvlib/Turret IMU Yaw Wind</Property>
 	<Property Name="varPersistentID:{A86D6F8E-9594-4701-9EC2-350A0DD44E42}" Type="Ref">/Target/Sensors.lvlib/Sonar Distance</Property>
@@ -70,6 +71,7 @@
 	<Property Name="varPersistentID:{CB658D26-3E27-4F8F-A260-4F1E4CFDBC4F}" Type="Ref">/Target/DriverController.lvlib/B</Property>
 	<Property Name="varPersistentID:{D1BA31BA-C10D-4343-86A5-92B0DFA770A8}" Type="Ref">/Target/Base Parameters.lvlib/TurretCWBound</Property>
 	<Property Name="varPersistentID:{D2FC227C-C4A0-44A9-9E84-D2DB493EEC3B}" Type="Ref">/Target/DriverController.lvlib/RightStickY</Property>
+	<Property Name="varPersistentID:{D82E331A-E506-4E4A-9763-0574663655E9}" Type="Ref">/Target/Vision Variables.lvlib/GearYPoints</Property>
 	<Property Name="varPersistentID:{DA9E61EB-EFD0-47A8-99D9-A9A132A672C3}" Type="Ref">/Target/DriverController.lvlib/RB</Property>
 	<Property Name="varPersistentID:{DD9F8C28-F23D-4F1D-B97E-F78928684CAA}" Type="Ref">/Target/Vision Variables.lvlib/TargetLock</Property>
 	<Property Name="varPersistentID:{EA69BD80-FA68-4662-B265-6BDD86EB53BC}" Type="Ref">/Target/Notifiers.lvlib/Home!</Property>
@@ -275,7 +277,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Stable.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Stable.vi"/>
 				<Item Name="Status.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/Status.vi"/>
 				<Item Name="Wind2Wrap.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/Wind2Wrap.vi"/>
-				<Item Name="Drive_Loop_Camera_Sensor.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Loop_Camera_Sensor.vi"/>
 				<Item Name="Drive_Loop_Turn.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Turn.vi"/>
 				<Item Name="Drive_Loop_Turn_to_Camera.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Turn_to_Camera.vi"/>
 				<Item Name="Drive_Loop_Tank_Drive.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Tank_Drive.vi"/>
