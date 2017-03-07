@@ -64,6 +64,7 @@
 	<Property Name="varPersistentID:{C3A7F140-B8A3-499C-A36C-F9DAF921420D}" Type="Ref">/Target/Notifiers.lvlib/GearReceive Control DevRef</Property>
 	<Property Name="varPersistentID:{C4414E1E-6EBE-417F-825C-A1A469D3A923}" Type="Ref">/Target/OperatorController.lvlib/Clear Bumps</Property>
 	<Property Name="varPersistentID:{C568D409-1B25-4637-B332-9A65C2C2C09F}" Type="Ref">/Target/Untitled Library 3.lvlib/setpoint</Property>
+	<Property Name="varPersistentID:{C6592091-1C72-4F8F-BBF0-556FA629475D}" Type="Ref">/Target/Untitled Library 1.lvlib/Variable</Property>
 	<Property Name="varPersistentID:{C659E74B-BCA6-44F8-BF4E-68BF523B7B9D}" Type="Ref">/Target/DriverController.lvlib/LeftStickX</Property>
 	<Property Name="varPersistentID:{C66A507D-CF1D-47F8-9D08-B67CA14BA03D}" Type="Ref">/Target/Sensors.lvlib/Body IMU Pitch</Property>
 	<Property Name="varPersistentID:{CB658D26-3E27-4F8F-A260-4F1E4CFDBC4F}" Type="Ref">/Target/DriverController.lvlib/B</Property>
@@ -235,6 +236,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Untitled Library 2.lvlib" Type="Library" URL="../Untitled Library 2.lvlib"/>
 		<Item Name="Untitled Library 3.lvlib" Type="Library" URL="../Untitled Library 3.lvlib"/>
 		<Item Name="Drive Data Logger.vi" Type="VI" URL="../../2014-baseline-master/2014-baseline-master/Drive Data Logger.vi"/>
+		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../Untitled Library 1.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Bump_Counter.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Bump_Counter.vi"/>
@@ -881,7 +883,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">24</Property>
+				<Property Name="Bld_version.build" Type="Int">25</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
