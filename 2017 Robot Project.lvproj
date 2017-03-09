@@ -14,6 +14,7 @@
 	<Property Name="varPersistentID:{1B856D75-47C6-4E03-A4CF-53513502C521}" Type="Ref">/Target/Sensors.lvlib/Top Wheel Steady</Property>
 	<Property Name="varPersistentID:{1CECE1CF-13D0-4938-9769-7FC46FCAAC59}" Type="Ref">/Target/ControlMode.lvlib/ShootingMode</Property>
 	<Property Name="varPersistentID:{1F19F06E-F8AF-478B-998E-C519E909E4A4}" Type="Ref">/Target/Notifiers.lvlib/Drive Loop Cluster</Property>
+	<Property Name="varPersistentID:{20A22AA2-C6AE-4E4A-B107-9DDE46097210}" Type="Ref">/Target/Vision Variables.lvlib/DeltaGear</Property>
 	<Property Name="varPersistentID:{23B8C702-28F1-4247-A8E4-E4A4939DCA99}" Type="Ref">/Target/OperatorController.lvlib/Operator DPad</Property>
 	<Property Name="varPersistentID:{2691705A-F617-4271-8CE7-08580A2BB9C6}" Type="Ref">/Target/Sensors.lvlib/Right Encoder Rate</Property>
 	<Property Name="varPersistentID:{28C195BC-DAC3-4143-96C3-C8CD936F2108}" Type="Ref">/Target/OperatorController.lvlib/OpRightY</Property>
@@ -72,11 +73,13 @@
 	<Property Name="varPersistentID:{D1BA31BA-C10D-4343-86A5-92B0DFA770A8}" Type="Ref">/Target/Base Parameters.lvlib/TurretCWBound</Property>
 	<Property Name="varPersistentID:{D2FC227C-C4A0-44A9-9E84-D2DB493EEC3B}" Type="Ref">/Target/DriverController.lvlib/RightStickY</Property>
 	<Property Name="varPersistentID:{D82E331A-E506-4E4A-9763-0574663655E9}" Type="Ref">/Target/Vision Variables.lvlib/GearYPoints</Property>
+	<Property Name="varPersistentID:{D86A7C39-029D-4088-9A7F-00956B89AD1D}" Type="Ref">/Target/Sensors.lvlib/BodyYawAbs</Property>
 	<Property Name="varPersistentID:{DA9E61EB-EFD0-47A8-99D9-A9A132A672C3}" Type="Ref">/Target/DriverController.lvlib/RB</Property>
 	<Property Name="varPersistentID:{DD9F8C28-F23D-4F1D-B97E-F78928684CAA}" Type="Ref">/Target/Vision Variables.lvlib/TargetLock</Property>
 	<Property Name="varPersistentID:{EA69BD80-FA68-4662-B265-6BDD86EB53BC}" Type="Ref">/Target/Notifiers.lvlib/Home!</Property>
 	<Property Name="varPersistentID:{EE3D1AE2-0559-4861-8CA2-1D210372B941}" Type="Ref">/Target/Untitled Library 2.lvlib/Arc Length Setpoint</Property>
 	<Property Name="varPersistentID:{FCF23618-A420-4139-9FF9-8E1EB90F533D}" Type="Ref">/Target/ControlMode.lvlib/Turning Distance</Property>
+	<Property Name="varPersistentID:{FD4DF0C3-E629-4782-81FA-FC7C08297CBD}" Type="Ref">/Target/Vision Variables.lvlib/LeftOfGear</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -223,7 +226,6 @@ AddOutputFilter chunkFilter
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Sensors.lvlib" Type="Library" URL="../Sensors.lvlib"/>
 		<Item Name="Drive_Loop_Approach_Camera.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Approach_Camera.vi"/>
-		<Item Name="Robot Global Data.vi" Type="VI" URL="../../../../Documents/LabVIEW Data/Test Vision/Robot Global Data.vi"/>
 		<Item Name="Shooting States.ctl" Type="VI" URL="../Shooting States.ctl"/>
 		<Item Name="Vision Variables.lvlib" Type="Library" URL="../Vision Variables.lvlib"/>
 		<Item Name="ShooterLUT.vi" Type="VI" URL="../ShooterLUT.vi"/>
@@ -239,9 +241,10 @@ AddOutputFilter chunkFilter
 		<Item Name="Untitled Library 3.lvlib" Type="Library" URL="../Untitled Library 3.lvlib"/>
 		<Item Name="Drive Data Logger.vi" Type="VI" URL="../../2014-baseline-master/2014-baseline-master/Drive Data Logger.vi"/>
 		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../Untitled Library 1.lvlib"/>
+		<Item Name="BoolWeightCalc.vi" Type="VI" URL="../BoolWeightCalc.vi"/>
+		<Item Name="ScoreGearStates.ctl" Type="VI" URL="../ScoreGearStates.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="Bump_Counter.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Bump_Counter.vi"/>
 				<Item Name="Camera_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Camera_Cluster.ctl"/>
 				<Item Name="Camera_Info_Grab.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Vision/Camera_Info_Grab.vi"/>
 				<Item Name="Drive_Code_Command.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Command.ctl"/>
@@ -274,7 +277,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Setup State.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/Setup State.ctl"/>
 				<Item Name="Signal_Pulse.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Signal_Pulse.vi"/>
 				<Item Name="Solenoid_Control_Loop.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Pneumatics/Support_Code/Solenoid_Control_Loop.ctl"/>
-				<Item Name="Stable.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Stable.vi"/>
 				<Item Name="Status.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/Status.vi"/>
 				<Item Name="Wind2Wrap.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/Wind2Wrap.vi"/>
 				<Item Name="Drive_Loop_Turn.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Turn.vi"/>
@@ -286,13 +288,19 @@ AddOutputFilter chunkFilter
 				<Item Name="Drive_Loop_Drive_Continuous.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Drive_Continuous.vi"/>
 				<Item Name="Drive_Loop_Do_Nothing.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Do_Nothing.vi"/>
 				<Item Name="Drive_Loop_Command.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Loop_Command.vi"/>
-				<Item Name="Stable.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Stable.vi"/>
 				<Item Name="De-Bounce_or_Delay.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/De-Bounce_or_Delay.vi"/>
 				<Item Name="Rate_Selective_Filter.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/Rate_Selective_Filter.vi"/>
 				<Item Name="Drive_Loop_Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Loop_Initialize.vi"/>
 				<Item Name="Pneumatic_Command_Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Pneumatics/Pneumatic_Command_Initialize.vi"/>
 				<Item Name="Pneumatic_Control_Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Pneumatics/Pneumatic_Control_Initialize.vi"/>
 				<Item Name="Pneumatic_Sensor_Loop.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Pneumatics/Support_Code/Pneumatic_Sensor_Loop.ctl"/>
+				<Item Name="Stable.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Stable.vi"/>
+				<Item Name="BoundAngle0To360.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/CheezyMath/BoundAngleSupport/BoundAngle0To360.vi"/>
+				<Item Name="BoundAngle0To2Pi_w_Help.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Math/CheezyMath/BoundAngleSupport/BoundAngle0to2Pi_w_Help/BoundAngle0To2Pi_w_Help.vi"/>
+				<Item Name="BoundAngleNeg180to180_w_Help.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Math/CheezyMath/BoundAngleSupport/BoundAngleNeg180to180_w_Help/BoundAngleNeg180to180_w_Help.vi"/>
+				<Item Name="BoundAngleNeg180to180.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Math/CheezyMath/BoundAngleSupport/BoundAngleNeg180to180/BoundAngleNeg180to180.vi"/>
+				<Item Name="BoundAngleNegPiToPi.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Math/CheezyMath/BoundAngleSupport/BoundAngleNegPiToPi.vi"/>
+				<Item Name="BoundAngle.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Math/CheezyMath/BoundAngle.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
