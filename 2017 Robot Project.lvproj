@@ -246,6 +246,7 @@ AddOutputFilter chunkFilter
 		<Item Name="ScoreGearStates.ctl" Type="VI" URL="../ScoreGearStates.ctl"/>
 		<Item Name="PointRotation.vi" Type="VI" URL="../PointRotation.vi"/>
 		<Item Name="AutoStates.ctl" Type="VI" URL="../AutoStates.ctl"/>
+		<Item Name="GearPositions.ctl" Type="VI" URL="../GearPositions.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Camera_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Camera_Cluster.ctl"/>
