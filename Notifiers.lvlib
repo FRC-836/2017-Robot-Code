@@ -26,12 +26,12 @@
 		<Property Name="typedefName4" Type="Str">Drive_Code_PID_Bundle.ctl</Property>
 		<Property Name="typedefName5" Type="Str">Logging_Data.ctl</Property>
 		<Property Name="typedefName6" Type="Str">Sensor_Cluster.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Camera_Cluster.ctl</Property>
-		<Property Name="typedefPath2" Type="PathRel">/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Command.ctl</Property>
-		<Property Name="typedefPath3" Type="PathRel">/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Notifier.ctl</Property>
-		<Property Name="typedefPath4" Type="PathRel">/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Code_PID_Bundle.ctl</Property>
-		<Property Name="typedefPath5" Type="PathRel">/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Logging_Data.ctl</Property>
-		<Property Name="typedefPath6" Type="PathRel">/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Sensor_Cluster.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Camera_Cluster.ctl</Property>
+		<Property Name="typedefPath2" Type="PathRel">/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Command.ctl</Property>
+		<Property Name="typedefPath3" Type="PathRel">/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Notifier.ctl</Property>
+		<Property Name="typedefPath4" Type="PathRel">/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Code_PID_Bundle.ctl</Property>
+		<Property Name="typedefPath5" Type="PathRel">/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Logging_Data.ctl</Property>
+		<Property Name="typedefPath6" Type="PathRel">/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Sensor_Cluster.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!4V]11!!"9!A!!!!!!F!!5!#A!!'%"Q!#%!!1!!$%&gt;Z=G]A5F1A2EF'4Q!!%U!+!!R(?8*P)%.V=H*F&lt;H1!!!^!#A!*2XFS&lt;S")&lt;WRE!":!5!!$!!%!!A!$#5&gt;Z=G]A2'&amp;U91!;1(!!)1!"!!!027ZD&lt;W2F=C"36#"'35:0!"6!#A!027ZD&lt;W2F=C"$&gt;8*S:7ZU!".!#A!-27ZD&lt;W2F=C")&lt;WRE!!!;1&amp;!!!Q!&amp;!!9!"QR&amp;&lt;G.P:'6S)%2B&gt;'%!!!V!#A!')%&amp;O:WRF!!!+1#%&amp;6G&amp;M;71!+1$R!!!!!!!!!!%31W&amp;N:8*B8U.M&gt;8.U:8)O9X2M!!Y!5!!#!!E!#A!;1(!!)1!"!!M/1W&amp;N:8*B)&amp;*5)%:*2E]!!$E!]1!!!!!!!!!"%E.B&lt;76S96^$&lt;(6T&gt;'6S,G.U&lt;!!?1&amp;!!!A!*!!I/1W&amp;N:8*B)%.V=H*F&lt;H1!!":!5!!#!!Q!$1N$97VF=G%A2'&amp;U91!T!0%!!!!!!!!!!2*4:7ZT&lt;X*@1WRV=X2F=CZD&gt;'Q!'%"1!!-!"!!)!!Y(1WRV=X2F=A#O!0%!!!!!!!!!!2:%=GFW:6^$&lt;W2F8U.P&lt;7VB&lt;G1O9X2M!)^!&amp;A!+#E2P)%ZP&gt;'BJ&lt;G='47&amp;O&gt;7&amp;M%%2S;8:F)%.P&lt;H2J&lt;H6P&gt;8-%6(6S&lt;AZ%=GFW:3"%;8.U97ZD:1V)&lt;WRE)&amp;"P=WFU;7^O#%BP&lt;'1A77&amp;X$5:P&lt;'RP&gt;S"$97VF=G%/6(6S&lt;C"U&lt;S"$97VF=G%018"Q=G^B9WAA1W&amp;N:8*B!!!(1W^N&lt;7&amp;O:!!21!I!#V"B=G&amp;N:82F=C""!"&amp;!#A!,5'&amp;S97VF&gt;'6S)%)!%5!+!!N198*B&lt;76U:8)A1Q!/1#%*17*T&lt;WRV&gt;'5`!$Q!]1!!!!!!!!!"&amp;U2S;8:F8U.P:'6@4G^U;7:J:8)O9X2M!"R!5!!&amp;!"!!%1!3!"-!&amp;!&gt;$&lt;(6T&gt;'6S!#"!=!!B!!%!&amp;26%=GFW:3"$&lt;WVN97ZE)(*U)':J:G]!%U!+!!V%:8.J=G6E)%&amp;O:WRF!"6!#A!02'6T;8*F:#"&amp;&lt;G.P:'6S!$]!]1!!!!!!!!!"%%RP:W&gt;J&lt;G&gt;@2'&amp;U93ZD&gt;'Q!*E"1!!-!%!!8!"A54'^H:WFO:S"%982B)%.M&gt;8.U:8)!!"B!=!!B!!%!'1R-&lt;W&gt;H;7ZH)%2B&gt;'%!!"V!#A!7=(*P='^S&gt;'FP&lt;G&amp;M)'&gt;B;7YA+%ND+1!!(5!+!"&gt;J&lt;H2F:X*B&lt;#"U;7VF)#B5;3QA&lt;7FO+1!@1!I!'72F=GFW982J&gt;G5A&gt;'FN:3!I6'1M)'VJ&lt;CE!)E"1!!-!'Q!=!"U677&amp;X,#"%=GFW;7ZH)&amp;.U=G&amp;J:WBU!#"!5!!$!"M!(!!&gt;%FFB&gt;SQA3'^M:'FO:S"4&gt;'FM&lt;!!!+%"1!!-!'Q!=!"U;2'FT&gt;'&amp;O9W5M)%2S;8:J&lt;G=A5X2S97FH;(1!!#2!5!!$!"M!(!!&gt;&amp;U2J=X2B&lt;G.F,#")&lt;WRE;7ZH)&amp;.U;7RM!$Y!]1!!!!!!!!!"'52S;8:F8U.P:'6@5%F%8U*V&lt;G2M:3ZD&gt;'Q!(%"1!!1!(A!@!#!!)1F1351A2W&amp;J&lt;H-!&amp;E"Q!"%!!1!C#F"*2#"6='2B&gt;'5!!!Y!5!!%!!]!&amp;A!;!#-!!1!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Drive Reference Notifier" Type="Variable">
@@ -48,13 +48,13 @@
 		<Property Name="typedefName5" Type="Str">Drive_Code_PID_Bundle.ctl</Property>
 		<Property Name="typedefName6" Type="Str">Logging_Data.ctl</Property>
 		<Property Name="typedefName7" Type="Str">Sensor_Cluster.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Camera_Cluster.ctl</Property>
-		<Property Name="typedefPath2" Type="PathRel">/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Bundle.ctl</Property>
-		<Property Name="typedefPath3" Type="PathRel">/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Command.ctl</Property>
-		<Property Name="typedefPath4" Type="PathRel">/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Notifier.ctl</Property>
-		<Property Name="typedefPath5" Type="PathRel">/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Code_PID_Bundle.ctl</Property>
-		<Property Name="typedefPath6" Type="PathRel">/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Logging_Data.ctl</Property>
-		<Property Name="typedefPath7" Type="PathRel">/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Sensor_Cluster.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Camera_Cluster.ctl</Property>
+		<Property Name="typedefPath2" Type="PathRel">/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Bundle.ctl</Property>
+		<Property Name="typedefPath3" Type="PathRel">/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Command.ctl</Property>
+		<Property Name="typedefPath4" Type="PathRel">/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Notifier.ctl</Property>
+		<Property Name="typedefPath5" Type="PathRel">/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Code_PID_Bundle.ctl</Property>
+		<Property Name="typedefPath6" Type="PathRel">/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Logging_Data.ctl</Property>
+		<Property Name="typedefPath7" Type="PathRel">/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Sensor_Cluster.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!43TA1!!"9!A!!!!!!G!!5!#A!!'%"Q!#%!!1!!$%&gt;Z=G]A5F1A2EF'4Q!!%U!+!!R(?8*P)%.V=H*F&lt;H1!!!^!#A!*2XFS&lt;S")&lt;WRE!":!5!!$!!%!!A!$#5&gt;Z=G]A2'&amp;U91!;1(!!)1!"!!!027ZD&lt;W2F=C"36#"'35:0!"6!#A!027ZD&lt;W2F=C"$&gt;8*S:7ZU!".!#A!-27ZD&lt;W2F=C")&lt;WRE!!!;1&amp;!!!Q!&amp;!!9!"QR&amp;&lt;G.P:'6S)%2B&gt;'%!!!V!#A!')%&amp;O:WRF!!!+1#%&amp;6G&amp;M;71!+1$R!!!!!!!!!!%31W&amp;N:8*B8U.M&gt;8.U:8)O9X2M!!Y!5!!#!!E!#A!;1(!!)1!"!!M/1W&amp;N:8*B)&amp;*5)%:*2E]!!$E!]1!!!!!!!!!"%E.B&lt;76S96^$&lt;(6T&gt;'6S,G.U&lt;!!?1&amp;!!!A!*!!I/1W&amp;N:8*B)%.V=H*F&lt;H1!!":!5!!#!!Q!$1N$97VF=G%A2'&amp;U91!X!0%!!!!!!!!!!2*4:7ZT&lt;X*@1WRV=X2F=CZD&gt;'Q!(%"1!!-!"!!)!!Y,5W6O=W^S)%2B&gt;'%!LA$R!!!!!!!!!!%72(*J&gt;G6@1W^E:6^$&lt;WVN97ZE,G.U&lt;!#01"9!#AJ%&lt;S"/&lt;X2I;7ZH"EVB&lt;H6B&lt;""%=GFW:3"$&lt;WZU;7ZV&lt;X6T"&amp;2V=GY/2(*J&gt;G5A2'FT&gt;'&amp;O9W5.3'^M:#"1&lt;X.J&gt;'FP&lt;AB)&lt;WRE)&amp;FB&gt;QV'&lt;WRM&lt;X=A1W&amp;N:8*B$F2V=GYA&gt;']A1W&amp;N:8*B$U&amp;Q=(*P97.I)%.B&lt;76S91!!"U.P&lt;7VB&lt;G1!%5!+!!N198*B&lt;76U:8)A11!21!I!#V"B=G&amp;N:82F=C"#!"&amp;!#A!,5'&amp;S97VF&gt;'6S)%-!$E!B#5&amp;C=W^M&gt;82F0Q!U!0%!!!!!!!!!!2&gt;%=GFW:6^$&lt;W2F8UZP&gt;'FG;76S,G.U&lt;!!5!&amp;!!"1!1!"%!%A!4!"1!)%"Q!#%!!1!6&amp;52S;8:F)%.P&lt;7VB&lt;G1A=H1A:GFG&lt;Q!41!I!$52F=WFS:71A17ZH&lt;'5!&amp;5!+!!^%:8.J=G6E)%6O9W^E:8)!+1$R!!!!!!!!!!%14'^H:WFO:V^%982B,G.U&lt;!!1!&amp;!!!Q!1!"=!'!!91(!!)1!"!"E-4'^H:WFO:S"%982B!!!&gt;1!I!&amp;H"S&lt;X"P=H2J&lt;WZB&lt;#"H97FO)#B,9SE!!"V!#A!8;7ZU:7&gt;S97QA&gt;'FN:3!I6'EM)'VJ&lt;CE!(U!+!"FE:8*J&gt;G&amp;U;8:F)(2J&lt;75A+&amp;2E,#"N;7YJ!#*!5!!$!"M!(!!&gt;&amp;6FB&gt;SQA2(*J&gt;GFO:S"4&gt;(*B;7&gt;I&gt;!!A1&amp;!!!Q!&lt;!"Q!(2*:98=M)%BP&lt;'2J&lt;G=A5X2J&lt;'Q!!#B!5!!$!"M!(!!&gt;'E2J=X2B&lt;G.F,#"%=GFW;7ZH)&amp;.U=G&amp;J:WBU!!!E1&amp;!!!Q!&lt;!"Q!(2&gt;%;8.U97ZD:3QA3'^M:'FO:S"4&gt;'FM&lt;!!_!0%!!!!!!!!!!2F%=GFW:6^$&lt;W2F8V"*2&amp;^#&gt;7ZE&lt;'5O9X2M!"R!5!!%!"Y!(Q!A!#%*5%F%)%&gt;B;7ZT!":!=!!2!!%!)AJ1351A68"E982F!!!Y!0%!!!!!!!!!!26%=GFW:6^$&lt;W2F8U*V&lt;G2M:3ZD&gt;'Q!'E"1!!1!$Q!7!"I!)Q&gt;$&lt;(6T&gt;'6S!!I!=!!2!!%!*!!"!#5!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="FMS Command Notifier" Type="Variable">
@@ -76,8 +76,8 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">Pneumatics_Command.ctl</Property>
 		<Property Name="typedefName2" Type="Str">Pneumatics_Status.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">/&lt;userlib&gt;/836-libraries/Pneumatics/Support_Code/Pneumatics_Command.ctl</Property>
-		<Property Name="typedefPath2" Type="PathRel">/&lt;userlib&gt;/836-libraries/Pneumatics/Support_Code/Pneumatics_Status.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">/&lt;userlib&gt;/836-Library/Pneumatics/Support_Code/Pneumatics_Command.ctl</Property>
+		<Property Name="typedefPath2" Type="PathRel">/&lt;userlib&gt;/836-Library/Pneumatics/Support_Code/Pneumatics_Status.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$BX1!!!"9!A!!!!!!&amp;!&amp;!!]1!!!!!!!!!"&amp;F"O:86N982J9X.@1W^N&lt;7&amp;O:#ZD&gt;'Q!-5!7!!1(4G^U;'FO:Q&gt;'&lt;X*X98*E"V*F&gt;G6S=W5'6'^H:WRF!!!%27ZV&lt;1!!%E"Q!"%!!1!!"U.P&lt;7VB&lt;G1!2Q$R!!!!!!!!!!%65'ZF&gt;7VB&gt;'FD=V^4&gt;'&amp;U&gt;8-O9X2M!#F!&amp;A!$"U:P=H&gt;B=G1(5G6W:8*T:1:.&lt;X:J&lt;G=!!!2&amp;&lt;H6N!!!31(!!%A!"!!)'5X2B&gt;(6T!!!+!&amp;!!!A!"!!-!!1!%!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Gear Shift Control Loop" Type="Variable">
@@ -91,8 +91,8 @@
 		<Property Name="typedefName3" Type="Str">WPI_SolenoidChannel.ctl</Property>
 		<Property Name="typedefName4" Type="Str">WPI_SolenoidDevRef.ctl</Property>
 		<Property Name="typedefName5" Type="Str">WPI_SolenoidValue.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">/&lt;userlib&gt;/836-libraries/Pneumatics/Support_Code/Pneumatics_Command.ctl</Property>
-		<Property Name="typedefPath2" Type="PathRel">/&lt;userlib&gt;/836-libraries/Pneumatics/Support_Code/Pneumatics_Position.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">/&lt;userlib&gt;/836-Library/Pneumatics/Support_Code/Pneumatics_Command.ctl</Property>
+		<Property Name="typedefPath2" Type="PathRel">/&lt;userlib&gt;/836-Library/Pneumatics/Support_Code/Pneumatics_Position.ctl</Property>
 		<Property Name="typedefPath3" Type="PathRel">/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidChannel.ctl</Property>
 		<Property Name="typedefPath4" Type="PathRel">/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidDevRef.ctl</Property>
 		<Property Name="typedefPath5" Type="PathRel">/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidValue.ctl</Property>
@@ -109,8 +109,8 @@
 		<Property Name="typedefName3" Type="Str">WPI_SolenoidChannel.ctl</Property>
 		<Property Name="typedefName4" Type="Str">WPI_SolenoidDevRef.ctl</Property>
 		<Property Name="typedefName5" Type="Str">WPI_SolenoidValue.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">/&lt;userlib&gt;/836-libraries/Pneumatics/Support_Code/Pneumatics_Command.ctl</Property>
-		<Property Name="typedefPath2" Type="PathRel">/&lt;userlib&gt;/836-libraries/Pneumatics/Support_Code/Pneumatics_Position.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">/&lt;userlib&gt;/836-Library/Pneumatics/Support_Code/Pneumatics_Command.ctl</Property>
+		<Property Name="typedefPath2" Type="PathRel">/&lt;userlib&gt;/836-Library/Pneumatics/Support_Code/Pneumatics_Position.ctl</Property>
 		<Property Name="typedefPath3" Type="PathRel">/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidChannel.ctl</Property>
 		<Property Name="typedefPath4" Type="PathRel">/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidDevRef.ctl</Property>
 		<Property Name="typedefPath5" Type="PathRel">/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidValue.ctl</Property>
@@ -124,8 +124,8 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">Pneumatics_Command.ctl</Property>
 		<Property Name="typedefName2" Type="Str">Pneumatics_Status.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">/&lt;userlib&gt;/836-libraries/Pneumatics/Support_Code/Pneumatics_Command.ctl</Property>
-		<Property Name="typedefPath2" Type="PathRel">/&lt;userlib&gt;/836-libraries/Pneumatics/Support_Code/Pneumatics_Status.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">/&lt;userlib&gt;/836-Library/Pneumatics/Support_Code/Pneumatics_Command.ctl</Property>
+		<Property Name="typedefPath2" Type="PathRel">/&lt;userlib&gt;/836-Library/Pneumatics/Support_Code/Pneumatics_Status.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$BX1!!!"9!A!!!!!!&amp;!&amp;!!]1!!!!!!!!!"&amp;F"O:86N982J9X.@1W^N&lt;7&amp;O:#ZD&gt;'Q!-5!7!!1(4G^U;'FO:Q&gt;'&lt;X*X98*E"V*F&gt;G6S=W5'6'^H:WRF!!!%27ZV&lt;1!!%E"Q!"%!!1!!"U.P&lt;7VB&lt;G1!2Q$R!!!!!!!!!!%65'ZF&gt;7VB&gt;'FD=V^4&gt;'&amp;U&gt;8-O9X2M!#F!&amp;A!$"U:P=H&gt;B=G1(5G6W:8*T:1:.&lt;X:J&lt;G=!!!2&amp;&lt;H6N!!!31(!!%A!"!!)'5X2B&gt;(6T!!!+!&amp;!!!A!"!!-!!1!%!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Home!" Type="Variable">
