@@ -24,9 +24,11 @@
 	<Property Name="varPersistentID:{2FDD830C-9242-4B07-ACA4-7265685DF2C6}" Type="Ref">/Target/OperatorController.lvlib/Turret Speed</Property>
 	<Property Name="varPersistentID:{30CA141F-F535-45E9-9C68-D091E3EA8728}" Type="Ref">/Target/DriverController.lvlib/LeftStickY</Property>
 	<Property Name="varPersistentID:{33A64AAE-4BD6-4C5B-BC4B-A3410C010077}" Type="Ref">/Target/Vision Variables.lvlib/TargetTracking</Property>
+	<Property Name="varPersistentID:{3605360C-018F-4000-AA28-E3D0722E6273}" Type="Ref">/Target/Sensors.lvlib/Gear Distance Within Tol</Property>
 	<Property Name="varPersistentID:{37C9F8C7-0025-45F3-A15D-74C6749A0A3A}" Type="Ref">/Target/Notifiers.lvlib/Drive Reference Notifier</Property>
 	<Property Name="varPersistentID:{4027C956-0881-4B6D-B99E-07E649A50662}" Type="Ref">/Target/Sensors.lvlib/Left Encoder Rate</Property>
 	<Property Name="varPersistentID:{41861394-51DF-4510-A55B-1BEC9CA22227}" Type="Ref">/Target/Sensors.lvlib/Body IMU Yaw</Property>
+	<Property Name="varPersistentID:{4621FFF5-AFA1-4C98-B687-2B490FEBA82A}" Type="Ref">/Target/Notifiers.lvlib/Right</Property>
 	<Property Name="varPersistentID:{47411902-8A56-4D1D-A577-951AC706AE8D}" Type="Ref">/Target/ToLog.lvlib/BotShooterCtrl</Property>
 	<Property Name="varPersistentID:{477CE421-15A3-4F6A-8A66-F7C8BFE6D7BC}" Type="Ref">/Target/ToLog.lvlib/Distance (lateral) 2</Property>
 	<Property Name="varPersistentID:{48384645-B910-4000-8A5C-671DAAFD671B}" Type="Ref">/Target/Notifiers.lvlib/Drive Command Notifier</Property>
@@ -44,6 +46,7 @@
 	<Property Name="varPersistentID:{5C964F2C-8F9A-48F6-8E24-FBAE646C3237}" Type="Ref">/Target/Vision Variables.lvlib/Boiler Distance Averaged</Property>
 	<Property Name="varPersistentID:{641E7E1D-BA73-4F9B-8E74-05228A0E7EBD}" Type="Ref">/Target/Vision Variables.lvlib/Boiler Yaw delta</Property>
 	<Property Name="varPersistentID:{683A0407-CDAB-4729-BDE0-E4BE6073F803}" Type="Ref">/Target/DriverController.lvlib/Start</Property>
+	<Property Name="varPersistentID:{6E0BD033-5B22-4CF6-80D4-97FB0FEDF5E2}" Type="Ref">/Target/ControlMode.lvlib/Gear Intake Speed</Property>
 	<Property Name="varPersistentID:{6E62A166-A2CE-4FCE-939E-0BFB482E42F0}" Type="Ref">/Target/ToLog.lvlib/TurretBump</Property>
 	<Property Name="varPersistentID:{75F7AF5E-3E80-49E2-A23D-DFF8A02DB5D4}" Type="Ref">/Target/Sensors.lvlib/Body IMU Roll</Property>
 	<Property Name="varPersistentID:{779E32DE-532F-4A30-8202-B44018CAD19F}" Type="Ref">/Target/ToLog.lvlib/TopShooterResponse</Property>
@@ -59,6 +62,7 @@
 	<Property Name="varPersistentID:{95FB8E84-B437-4605-8832-7B3BED0E52E1}" Type="Ref">/Target/Vision Variables.lvlib/Boiler Found</Property>
 	<Property Name="varPersistentID:{9839E07B-01E1-4415-B463-17C7B1063536}" Type="Ref">/Target/DriverController.lvlib/RT</Property>
 	<Property Name="varPersistentID:{98537804-E61D-4461-A574-96D440AC665D}" Type="Ref">/Target/Vision Variables.lvlib/TurretDesiredAngle</Property>
+	<Property Name="varPersistentID:{99A6BFF0-8DCD-4328-B2CA-950C4564AF87}" Type="Ref">/Target/Sensors.lvlib/Riser setpoint</Property>
 	<Property Name="varPersistentID:{99F42768-3FA7-4DF2-8ED2-26024137FE82}" Type="Ref">/Target/DriverController.lvlib/X</Property>
 	<Property Name="varPersistentID:{9CECDBC6-ABEA-4AB1-9ADB-CCDF2DC64CC8}" Type="Ref">/Target/DriverController.lvlib/LB</Property>
 	<Property Name="varPersistentID:{9DF32953-4C4F-43A9-892E-580B183189D2}" Type="Ref">/Target/Sensors.lvlib/Right Encoder Distance</Property>
@@ -67,6 +71,7 @@
 	<Property Name="varPersistentID:{9F004B54-6447-4F95-AB39-B33005D04531}" Type="Ref">/Target/Notifiers.lvlib/Op Light Command</Property>
 	<Property Name="varPersistentID:{9FF333B2-E79A-4DA4-8217-23E1FA24413E}" Type="Ref">/Target/ToLog.lvlib/TopShooterCtrl</Property>
 	<Property Name="varPersistentID:{A29F065B-F44D-4225-89C8-075D5D31C24D}" Type="Ref">/Target/Sensors.lvlib/Turret IMU Yaw Wind</Property>
+	<Property Name="varPersistentID:{A35B73CD-DCCC-496B-AC3B-DDB6C89317A4}" Type="Ref">/Target/Notifiers.lvlib/Gear Command Notifier</Property>
 	<Property Name="varPersistentID:{A86D6F8E-9594-4701-9EC2-350A0DD44E42}" Type="Ref">/Target/Sensors.lvlib/Sonar Distance</Property>
 	<Property Name="varPersistentID:{AAE22D01-714A-4349-8DB2-A3C253E5B8E6}" Type="Ref">/Target/DriverController.lvlib/A</Property>
 	<Property Name="varPersistentID:{AC864079-BD1D-49C5-AE13-C9B574CB9577}" Type="Ref">/Target/ControlMode.lvlib/HighOnStart</Property>
@@ -74,12 +79,14 @@
 	<Property Name="varPersistentID:{B068A018-B1A9-4948-BC25-594069CDFD9F}" Type="Ref">/Target/ToLog.lvlib/BodyPriGood</Property>
 	<Property Name="varPersistentID:{B1B2C976-51D6-4D67-93E5-4681A6279A65}" Type="Ref">/Target/ToLog.lvlib/BodyBuGood</Property>
 	<Property Name="varPersistentID:{B47B56F9-4EDB-4D2A-8366-715836DB6E63}" Type="Ref">/Target/Notifiers.lvlib/NeoPixel Controls</Property>
+	<Property Name="varPersistentID:{B47C2AFC-AA74-4C7E-B0F4-58E87C50DEC7}" Type="Ref">/Target/Notifiers.lvlib/Left</Property>
 	<Property Name="varPersistentID:{B8325E95-BC96-4581-A011-32FBD92B5EA2}" Type="Ref">/Target/Notifiers.lvlib/Shooter Wheel Command</Property>
 	<Property Name="varPersistentID:{C010D331-AD9A-4909-A15E-3A9FDA8E94C9}" Type="Ref">/Target/Notifiers.lvlib/Gear Receiver Command DevRef</Property>
 	<Property Name="varPersistentID:{C233B3D6-4A7B-4543-94B4-700368619DEF}" Type="Ref">/Target/Vision Variables.lvlib/Gear valid</Property>
 	<Property Name="varPersistentID:{C3A7F140-B8A3-499C-A36C-F9DAF921420D}" Type="Ref">/Target/Notifiers.lvlib/GearReceive Control DevRef</Property>
 	<Property Name="varPersistentID:{C4414E1E-6EBE-417F-825C-A1A469D3A923}" Type="Ref">/Target/OperatorController.lvlib/Clear Bumps</Property>
 	<Property Name="varPersistentID:{C568D409-1B25-4637-B332-9A65C2C2C09F}" Type="Ref">/Target/Untitled Library 3.lvlib/setpoint</Property>
+	<Property Name="varPersistentID:{C606BCE5-BE45-4D5D-8113-EDE70716F17E}" Type="Ref">/Target/Auto Variables.lvlib/OverrideSpinUpTime</Property>
 	<Property Name="varPersistentID:{C6592091-1C72-4F8F-BBF0-556FA629475D}" Type="Ref">/Target/Untitled Library 1.lvlib/Variable</Property>
 	<Property Name="varPersistentID:{C659E74B-BCA6-44F8-BF4E-68BF523B7B9D}" Type="Ref">/Target/DriverController.lvlib/LeftStickX</Property>
 	<Property Name="varPersistentID:{C66A507D-CF1D-47F8-9D08-B67CA14BA03D}" Type="Ref">/Target/Sensors.lvlib/Body IMU Pitch</Property>
@@ -92,6 +99,7 @@
 	<Property Name="varPersistentID:{DD9F8C28-F23D-4F1D-B97E-F78928684CAA}" Type="Ref">/Target/Vision Variables.lvlib/TargetLock</Property>
 	<Property Name="varPersistentID:{DEE632DD-25FA-4CF0-8E77-574FCF8DB89D}" Type="Ref">/Target/ToLog.lvlib/Distance (lateral) 1</Property>
 	<Property Name="varPersistentID:{E3B0AB17-5BFA-4405-82FA-F9BA3EE0BAF5}" Type="Ref">/Target/Sensors.lvlib/Body IMU Status</Property>
+	<Property Name="varPersistentID:{EA3E5FEF-C9E3-4336-8E5D-0951179D778E}" Type="Ref">/Target/Sensors.lvlib/Gear Intake Stalled</Property>
 	<Property Name="varPersistentID:{EA69BD80-FA68-4662-B265-6BDD86EB53BC}" Type="Ref">/Target/Notifiers.lvlib/Home!</Property>
 	<Property Name="varPersistentID:{EE3D1AE2-0559-4861-8CA2-1D210372B941}" Type="Ref">/Target/Untitled Library 2.lvlib/Arc Length Setpoint</Property>
 	<Property Name="varPersistentID:{EE52736D-1CAE-46E4-8C2D-A2732846866B}" Type="Ref">/Target/ToLog.lvlib/BotShooterResponse</Property>
@@ -264,6 +272,8 @@ AddOutputFilter chunkFilter
 		<Item Name="GearPositions.ctl" Type="VI" URL="../GearPositions.ctl"/>
 		<Item Name="TurretImu.ctl" Type="VI" URL="../TurretImu.ctl"/>
 		<Item Name="ToLog.lvlib" Type="Library" URL="../ToLog.lvlib"/>
+		<Item Name="QCP_Set.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/QCP_Set.vi"/>
+		<Item Name="Gear Command.ctl" Type="VI" URL="../Gear Command.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Camera_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Camera_Cluster.ctl"/>
@@ -318,7 +328,10 @@ AddOutputFilter chunkFilter
 				<Item Name="Stable.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Stable.vi"/>
 				<Item Name="Drive_Loop_Camera_Sensor.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Loop_Camera_Sensor.vi"/>
 				<Item Name="Pulse_Stretch_&amp;_Delay.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Pulse_Stretch_&amp;_Delay.vi"/>
-				<Item Name="Stable_Rise&amp;Fall.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Stable_Rise&amp;Fall.vi"/>
+				<Item Name="QCP_Set_DBL.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/QCP_Support_Code/QCP_Set_DBL.vi"/>
+				<Item Name="QCP_Data_Block.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/QCP_Support_Code/QCP_Data_Block.ctl"/>
+				<Item Name="QCP_Set_I32.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/QCP_Support_Code/QCP_Set_I32.vi"/>
+				<Item Name="QCP_Set_STR.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/QCP_Support_Code/QCP_Set_STR.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -863,6 +876,15 @@ AddOutputFilter chunkFilter
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="WPI_Power Get roboRIO Input Voltage and Current.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get roboRIO Input Voltage and Current.vi"/>
+				<Item Name="WPI_CAN_PDPCommands.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPCommands.ctl"/>
+				<Item Name="WPI_CAN_PDPGetAll.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPGetAll.ctl"/>
+				<Item Name="WPI_CAN_PDPGlobalOps.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPGlobalOps.ctl"/>
+				<Item Name="WPI_CAN_PDPGlobal.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPGlobal.vi"/>
+				<Item Name="WPI_CAN_PDPMessageIDs.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPMessageIDs.ctl"/>
+				<Item Name="WPI_CAN_PDPSend.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPSend.vi"/>
+				<Item Name="WPI_CAN_PDPDecode4Currents.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPDecode4Currents.vi"/>
+				<Item Name="WPI_CAN_PDPReceive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPReceive.vi"/>
+				<Item Name="WPI_Power Get PDP Currents.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get PDP Currents.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

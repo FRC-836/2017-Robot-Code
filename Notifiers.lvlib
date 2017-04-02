@@ -12,7 +12,7 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">Drive Commands.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../Drive Commands.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#?GA!!!"9!A!!!!!!#!(Q!]1!!!!!!!!!"%E2S;8:F)%.P&lt;7VB&lt;G2T,G.U&lt;!"B1"9!"Q:.97ZV97Q)2W6U)%&gt;F98)+5W.P=G5A2W6B=AJ"&lt;'FH&lt;C"3&lt;X"F$62V=GYA6']A17ZH&lt;'515X2B=H1A2W6B=C"49W^S:1J1&lt;'&amp;D:3"(:7&amp;S!!2&amp;&lt;H6N!!!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#KJA!!!"9!A!!!!!!#!)A!]1!!!!!!!!!"%E2S;8:F)%.P&lt;7VB&lt;G2T,G.U&lt;!"N1"9!#!:.97ZV97Q)2W6U)%&gt;F98)+5W.P=G5A2W6B=AJ"&lt;'FH&lt;C"3&lt;X"F$62V=GYA6']A17ZH&lt;'515X2B=H1A2W6B=C"49W^S:1J1&lt;'&amp;D:3"(:7&amp;S#F2B&lt;GMA2(*J&gt;G5!!!2&amp;&lt;H6N!!!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Drive Loop Cluster" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
@@ -67,6 +67,16 @@
 		<Property Name="typedefName1" Type="Str">FMS Commands.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../FMS Commands.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"?7A!!!"9!A!!!!!!#!$Q!]1!!!!!!!!!"%%:.5S"$&lt;WVN97ZE=SZD&gt;'Q!)U!7!!-&amp;5WBP&lt;X1'67YN3G&amp;N"&amp;.U&lt;X!!"%6O&gt;7U!!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Gear Command Notifier" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typedefName1" Type="Str">Gear Command.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Gear Command.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"K:A!!!"9!A!!!!!!#!%A!]1!!!!!!!!!"%%&gt;F98)A1W^N&lt;7&amp;O:#ZD&gt;'Q!,U!7!!1%3'^N:1R'&lt;'^P=C"*&lt;H2B;W5&amp;1W&amp;U9WA&amp;5W.P=G5!"%6O&gt;7U!!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Gear Receiver Command DevRef" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
@@ -147,6 +157,18 @@
 		<Property Name="typedefPath1" Type="PathRel">../FMS Commands.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"?7A!!!"9!A!!!!!!#!$Q!]1!!!!!!!!!"%%:.5S"$&lt;WVN97ZE=SZD&gt;'Q!)U!7!!-&amp;5WBP&lt;X1'67YN3G&amp;N"&amp;.U&lt;X!!"%6O&gt;7U!!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="Left" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="NeoPixel Controls" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
@@ -166,6 +188,18 @@
 		<Property Name="typedefName1" Type="Str">OpLightNotifier.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../OpLightNotifier.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!\.Q!!!"9!A!!!!!!#!"E!&amp;A!$"5&gt;F98*T"C"#97RM=Q2#&lt;X2I!!!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Right" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Shooter Wheel Command" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
