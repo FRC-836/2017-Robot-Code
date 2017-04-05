@@ -275,6 +275,7 @@ AddOutputFilter chunkFilter
 		<Item Name="ToLog.lvlib" Type="Library" URL="../ToLog.lvlib"/>
 		<Item Name="QCP_Set.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/QCP_Set.vi"/>
 		<Item Name="Gear Command.ctl" Type="VI" URL="../Gear Command.ctl"/>
+		<Item Name="GearManipZeros.ctl" Type="VI" URL="../GearManipZeros.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Camera_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Camera_Cluster.ctl"/>
