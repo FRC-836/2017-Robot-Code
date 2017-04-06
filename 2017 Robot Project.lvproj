@@ -37,11 +37,13 @@
 	<Property Name="varPersistentID:{4D42FDF1-9FDC-4F30-B5FD-BA9E26075C7F}" Type="Ref">/Target/Vision Variables.lvlib/Boiler distance</Property>
 	<Property Name="varPersistentID:{4E7FCFA2-C635-4AA2-849A-8E131BFADC1B}" Type="Ref">/Target/Notifiers.lvlib/FMS Command Notifier</Property>
 	<Property Name="varPersistentID:{4F544AAD-3940-48D7-BE16-761A040CDC9C}" Type="Ref">/Target/Notifiers.lvlib/GearShift Command DevRef</Property>
+	<Property Name="varPersistentID:{514474A7-7383-4943-A459-9EAC02A52A90}" Type="Ref">/Target/Notifiers.lvlib/DropGearmMech</Property>
 	<Property Name="varPersistentID:{524AB289-0657-4989-9E59-C99441A8DD20}" Type="Ref">/Target/ToLog.lvlib/ShooterTopBumps</Property>
 	<Property Name="varPersistentID:{5418BE95-A7BE-469A-9134-D9DAA089C29D}" Type="Ref">/Target/OperatorController.lvlib/OpRightX</Property>
 	<Property Name="varPersistentID:{5471A433-162C-47E6-AFC5-BCF38A8AB2BF}" Type="Ref">/Target/Notifiers.lvlib/Gear Shift Control Loop</Property>
 	<Property Name="varPersistentID:{548019F2-B788-4E59-8FB8-E2F73D491783}" Type="Ref">/Target/Vision Variables.lvlib/Gear yaw delta</Property>
 	<Property Name="varPersistentID:{557DF168-3BB2-4F8B-A274-1D0EF91CB825}" Type="Ref">/Target/ToLog.lvlib/TurretPriGood</Property>
+	<Property Name="varPersistentID:{5859CEC2-6478-4C8C-8D2C-4C552E90E26E}" Type="Ref">/Target/Notifiers.lvlib/ZeroGearMech</Property>
 	<Property Name="varPersistentID:{592C537F-625A-4347-B495-5B1102133610}" Type="Ref">/Target/Vision Variables.lvlib/Gear Distance</Property>
 	<Property Name="varPersistentID:{5C964F2C-8F9A-48F6-8E24-FBAE646C3237}" Type="Ref">/Target/Vision Variables.lvlib/Boiler Distance Averaged</Property>
 	<Property Name="varPersistentID:{641E7E1D-BA73-4F9B-8E74-05228A0E7EBD}" Type="Ref">/Target/Vision Variables.lvlib/Boiler Yaw delta</Property>
@@ -330,10 +332,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Stable.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Stable.vi"/>
 				<Item Name="Drive_Loop_Camera_Sensor.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Loop_Camera_Sensor.vi"/>
 				<Item Name="Pulse_Stretch_&amp;_Delay.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Pulse_Stretch_&amp;_Delay.vi"/>
-				<Item Name="QCP_Set_DBL.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/QCP_Support_Code/QCP_Set_DBL.vi"/>
-				<Item Name="QCP_Data_Block.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/QCP_Support_Code/QCP_Data_Block.ctl"/>
-				<Item Name="QCP_Set_I32.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/QCP_Support_Code/QCP_Set_I32.vi"/>
-				<Item Name="QCP_Set_STR.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/QCP_Support_Code/QCP_Set_STR.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
