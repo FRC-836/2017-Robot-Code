@@ -36,6 +36,7 @@
 	<Property Name="varPersistentID:{2739B4AA-5BA5-4FBB-A06D-5281882F78FA}" Type="Ref">/Target/Auto_QCP.lvlib/Left_Peg_Time_Taken</Property>
 	<Property Name="varPersistentID:{28C195BC-DAC3-4143-96C3-C8CD936F2108}" Type="Ref">/Target/OperatorController.lvlib/OpRightY</Property>
 	<Property Name="varPersistentID:{2CB90464-714C-4211-AE67-B95D78E6B504}" Type="Ref">/Target/Teleop_QCP.lvlib/FMS_Rate_Limit</Property>
+	<Property Name="varPersistentID:{2DBAC8D2-CF6B-458B-9307-ADA75CC09A41}" Type="Ref">/Target/Teleop_QCP.lvlib/FMS_Transition_Fwd_Speed</Property>
 	<Property Name="varPersistentID:{2FA97F6A-32EF-40B4-86FB-2016E5CA35EA}" Type="Ref">/Target/DriverController.lvlib/LT</Property>
 	<Property Name="varPersistentID:{2FCEB760-1FF9-486A-88FA-828863619C8F}" Type="Ref">/Target/Teleop_QCP.lvlib/Turret_Max_Speed</Property>
 	<Property Name="varPersistentID:{2FDD830C-9242-4B07-ACA4-7265685DF2C6}" Type="Ref">/Target/OperatorController.lvlib/Turret Speed</Property>
@@ -87,7 +88,6 @@
 	<Property Name="varPersistentID:{5C964F2C-8F9A-48F6-8E24-FBAE646C3237}" Type="Ref">/Target/Vision Variables.lvlib/Boiler Distance Averaged</Property>
 	<Property Name="varPersistentID:{5E3D3B0F-18FA-4EC2-B4AB-3A2B8FC61475}" Type="Ref">/Target/Teleop_QCP.lvlib/Bot_Wheel_PID_P</Property>
 	<Property Name="varPersistentID:{63F5E951-569A-458A-949E-C57106474FBC}" Type="Ref">/Target/Auto_QCP.lvlib/Raise_Gear_Manip_Time</Property>
-	<Property Name="varPersistentID:{63FD9C7F-0ECE-4EBA-8534-008C27AB3D7D}" Type="Ref">/Target/Teleop_QCP.lvlib/Turret_Range_For_P</Property>
 	<Property Name="varPersistentID:{641E7E1D-BA73-4F9B-8E74-05228A0E7EBD}" Type="Ref">/Target/Vision Variables.lvlib/Boiler Yaw delta</Property>
 	<Property Name="varPersistentID:{6449A4A4-A9A5-4056-84BD-F57730FDD7B5}" Type="Ref">/Target/Teleop_QCP.lvlib/Gear_Mech_PID_I</Property>
 	<Property Name="varPersistentID:{672DDC76-F4DD-4124-8EAB-4FAD64B0B951}" Type="Ref">/Target/Auto_QCP.lvlib/Center_Peg_Theta_Final</Property>
@@ -105,6 +105,7 @@
 	<Property Name="varPersistentID:{70FD75DF-238A-4EDC-A04F-7D60293FDB95}" Type="Ref">/Target/Teleop_QCP.lvlib/Turret_Feed_CW</Property>
 	<Property Name="varPersistentID:{72DEF0F4-616D-41B5-8C5D-85FAAEA0E8C9}" Type="Ref">/Target/Teleop_QCP.lvlib/Turret_Valid_Wait_In_Search</Property>
 	<Property Name="varPersistentID:{7338171B-E9E9-41B6-97F9-97532CCB4254}" Type="Ref">/Target/Auto_QCP.lvlib/Right_Peg_Theta_Final</Property>
+	<Property Name="varPersistentID:{73E70ADD-40F0-4960-B674-3D7C211E7113}" Type="Ref">/Target/Teleop_QCP.lvlib/FMS_Transition_Duty_Cycle</Property>
 	<Property Name="varPersistentID:{74911E31-3403-4BE3-AF16-A9434FA9B64B}" Type="Ref">/Target/Auto_QCP.lvlib/Right_Peg_Y</Property>
 	<Property Name="varPersistentID:{75F7AF5E-3E80-49E2-A23D-DFF8A02DB5D4}" Type="Ref">/Target/Sensors.lvlib/Body IMU Roll</Property>
 	<Property Name="varPersistentID:{779E32DE-532F-4A30-8202-B44018CAD19F}" Type="Ref">/Target/ToLog.lvlib/TopShooterResponse</Property>
@@ -200,6 +201,7 @@
 	<Property Name="varPersistentID:{DB97E984-7BA9-4542-A87F-2AC47227FA19}" Type="Ref">/Target/Teleop_QCP.lvlib/Turret_Guess_State_Time</Property>
 	<Property Name="varPersistentID:{DCF33C70-D3D8-45B6-8F18-1AFDD1A4A359}" Type="Ref">/Target/Teleop_QCP.lvlib/Gear_Zero_Down_Power</Property>
 	<Property Name="varPersistentID:{DD9F8C28-F23D-4F1D-B97E-F78928684CAA}" Type="Ref">/Target/Vision Variables.lvlib/TargetLock</Property>
+	<Property Name="varPersistentID:{DDFB0425-2589-4324-941C-E503DD7D5523}" Type="Ref">/Target/ControlMode.lvlib/Tuning Mode?</Property>
 	<Property Name="varPersistentID:{DE40A87D-2CF8-44FD-B7C7-302A983F42F8}" Type="Ref">/Target/Sensors.lvlib/Gear Overdoned</Property>
 	<Property Name="varPersistentID:{DEE632DD-25FA-4CF0-8E77-574FCF8DB89D}" Type="Ref">/Target/ToLog.lvlib/Distance (lateral) 1</Property>
 	<Property Name="varPersistentID:{E0A0BB73-187D-4A47-A0D4-3E26101377B5}" Type="Ref">/Target/Teleop_QCP.lvlib/FMS_Period</Property>
@@ -215,10 +217,12 @@
 	<Property Name="varPersistentID:{EDB738A2-80C1-46D4-AA60-BF1482908E55}" Type="Ref">/Target/Teleop_QCP.lvlib/Turret_Search_PID_I</Property>
 	<Property Name="varPersistentID:{EE3D1AE2-0559-4861-8CA2-1D210372B941}" Type="Ref">/Target/Untitled Library 2.lvlib/Arc Length Setpoint</Property>
 	<Property Name="varPersistentID:{EE52736D-1CAE-46E4-8C2D-A2732846866B}" Type="Ref">/Target/ToLog.lvlib/BotShooterResponse</Property>
+	<Property Name="varPersistentID:{EF99719B-1FEF-4E7F-BD8E-F4BD39EED9CD}" Type="Ref">/Target/Teleop_QCP.lvlib/FMS_Transition_Period</Property>
 	<Property Name="varPersistentID:{F47EAB6A-E284-4656-BA28-9C20C8564B9E}" Type="Ref">/Target/Auto_QCP.lvlib/Backup_Crash_Distance</Property>
 	<Property Name="varPersistentID:{F61A5D04-A14E-40CF-82B4-7B90D7D65942}" Type="Ref">/Target/Teleop_QCP.lvlib/Gear_Intake_PDP_Adr</Property>
 	<Property Name="varPersistentID:{F79828D5-3A06-4387-95D9-954C552BC390}" Type="Ref">/Target/Teleop_QCP.lvlib/Gear_Zero_Down_Time</Property>
 	<Property Name="varPersistentID:{F7D942A5-AA49-42F6-B1BE-39C66067D275}" Type="Ref">/Target/Auto_QCP.lvlib/Hopper_Theta_Final</Property>
+	<Property Name="varPersistentID:{F91502CB-51A1-4860-A83B-1DCFF21A4B19}" Type="Ref">/Target/Teleop_QCP.lvlib/FMS_Transition_Rev_Speed</Property>
 	<Property Name="varPersistentID:{F91F6D57-493B-4993-A172-B8EC0DAAA677}" Type="Ref">/Target/Teleop_QCP.lvlib/Gear_Intake_Rev_Speed</Property>
 	<Property Name="varPersistentID:{F9ABE105-D97C-46F0-97D3-2831D506E2A0}" Type="Ref">/Target/Teleop_QCP.lvlib/Turret_Valid_PID_High</Property>
 	<Property Name="varPersistentID:{FB183E20-1AF2-40C8-8CB1-7692FF0D7AAB}" Type="Ref">/Target/Teleop_QCP.lvlib/Feeder_Speed</Property>
