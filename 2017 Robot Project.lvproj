@@ -100,6 +100,7 @@
 	<Property Name="varPersistentID:{D86A7C39-029D-4088-9A7F-00956B89AD1D}" Type="Ref">/Target/Sensors.lvlib/BodyYawAbs</Property>
 	<Property Name="varPersistentID:{DA9E61EB-EFD0-47A8-99D9-A9A132A672C3}" Type="Ref">/Target/DriverController.lvlib/RB</Property>
 	<Property Name="varPersistentID:{DD9F8C28-F23D-4F1D-B97E-F78928684CAA}" Type="Ref">/Target/Vision Variables.lvlib/TargetLock</Property>
+	<Property Name="varPersistentID:{DE40A87D-2CF8-44FD-B7C7-302A983F42F8}" Type="Ref">/Target/Sensors.lvlib/Gear Overdoned</Property>
 	<Property Name="varPersistentID:{DEE632DD-25FA-4CF0-8E77-574FCF8DB89D}" Type="Ref">/Target/ToLog.lvlib/Distance (lateral) 1</Property>
 	<Property Name="varPersistentID:{E3B0AB17-5BFA-4405-82FA-F9BA3EE0BAF5}" Type="Ref">/Target/Sensors.lvlib/Body IMU Status</Property>
 	<Property Name="varPersistentID:{EA3E5FEF-C9E3-4336-8E5D-0951179D778E}" Type="Ref">/Target/Sensors.lvlib/Gear Intake Stalled</Property>
@@ -939,7 +940,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">58</Property>
+				<Property Name="Bld_version.build" Type="Int">59</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
