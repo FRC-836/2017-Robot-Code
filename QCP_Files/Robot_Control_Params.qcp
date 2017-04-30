@@ -1,21 +1,21 @@
 #FMS
-Feeder_Speed, 0.702503
-FMS_Foward_Speed, 0.807588
-FMS_Reverse_Speed, 0.505495
-FMS_Duty_Cycle, 70
-FMS_Period, 650
+Feeder_Speed, 0.760038
+FMS_Foward_Speed, 0.486137
+FMS_Reverse_Speed, -0.449524
+FMS_Duty_Cycle, 65
+FMS_Period, 400
 FMS_Rate_Limit, 501.869
 FMS_Transition_Duty_Cycle, 60
-FMS_Transition_Period, 400
-FMS_Transition_Fwd_Speed, 516413
-FMS_Transition_Rev_Speed, -273234
+FMS_Transition_Period, 300
+FMS_Transition_Fwd_Speed, 0.63287
+FMS_Transition_Rev_Speed, -0.273234
 
 #Turret
 Turret_Max_Speed, 0.349825
 Turret_Desired, 56
 Turret_Range_For_I, 10
-Turret_CW_Bound, 95
-Turret_CCW_Bound, -90
+Turret_CW_Bound, 110
+Turret_CCW_Bound, -120
 Turret_Feed_CW, 0
 Turret_Feed_CCW, 0
 
@@ -27,7 +27,7 @@ Turret_Valid_PID_High, 0.9
 Turret_Valid_PID_Low, -0.9
 Turret_Valid_Wait_In_Search, 0.376995
 Turret_Valid_Lost_Time, 0.530113
-Turret_Valid_Setpoint_Tol, 2
+Turret_Valid_Setpoint_Tol, 0.5
 Turret_Valid_Min_Rate, 0.2
 
 #Turret Search State (no pid values used)
@@ -90,13 +90,13 @@ Gear_Intake_PDP_Adr, 1
 Gear_Intake_PDP_Channel, 9
 Gear_Zero_Down_Time, 1
 Gear_Zero_Down_Power, -0.4
-Gear_Catch_Pos, 84.9813
-Gear_Home_Pos, 100
-Gear_Intake_Pos, 0
-Gear_Score_Pos, 35
-Gear_Mech_PID_P, 0.017
+Gear_Catch_Pos, 70
+Gear_Home_Pos, 88
+Gear_Intake_Pos, -12
+Gear_Score_Pos, 25
+Gear_Mech_PID_P, 0.015
 Gear_Mech_PID_I, 0.0
-Gear_Mech_PID_D, 0.001
+Gear_Mech_PID_D, 0.0005
 Gear_Mech_PID_High, 0.45
 Gear_Mech_PID_Low, -0.25
 
@@ -104,3 +104,6 @@ Gear_Mech_PID_Low, -0.25
 Gear_Stall_Eval, 0.192536
 Gear_Stall_Thresh, 20
 Gear_Stall_Rate_Limit, 195.749
+
+#Vision variables
+Vision_Boiler_Offset, 0

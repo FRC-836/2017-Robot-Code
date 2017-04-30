@@ -1,6 +1,6 @@
 #Hopper auto values
-Close_Hopper_X, 0, 0, -44
-Close_Hopper_Y, 0, 71, 89
+Close_Hopper_X, 0, 0, -42
+Close_Hopper_Y, 0, 71, 91
 Far_Hopper_Y_Offset, 0, 47, 47
 Hopper_Theta_Initial, 1.570796
 Hopper_Theta_Final, 3.14159

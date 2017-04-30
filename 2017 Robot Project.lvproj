@@ -6,6 +6,7 @@
 	<Property Name="varPersistentID:{01DE8152-2143-4EAD-A33E-25C1BB878AE9}" Type="Ref">/Target/Vision Variables.lvlib/Boiler Target Lock</Property>
 	<Property Name="varPersistentID:{03960FE1-8C8B-4EED-9357-049AD32E21C8}" Type="Ref">/Target/Teleop_QCP.lvlib/Turret_Valid_PID_D</Property>
 	<Property Name="varPersistentID:{03E46513-1CDF-47DC-A9F2-A74C54D9C513}" Type="Ref">/Target/Sensors.lvlib/Left Encoder</Property>
+	<Property Name="varPersistentID:{03F79E67-76E5-4B00-8D79-CA78D2BFB6D9}" Type="Ref">/Target/ControlMode.lvlib/Fixed RPM Mode</Property>
 	<Property Name="varPersistentID:{0419FD47-8F22-4C3C-8BBC-FF92C84237D7}" Type="Ref">/Target/Teleop_QCP.lvlib/Gear_Intake_Fwd_Speed</Property>
 	<Property Name="varPersistentID:{05EA42A1-B8F4-4C4D-A437-3477F881086B}" Type="Ref">/Target/ToLog.lvlib/TurretBuGood</Property>
 	<Property Name="varPersistentID:{07960CA5-80F5-4663-B171-4EAB8489B66A}" Type="Ref">/Target/Teleop_QCP.lvlib/Gear_Catch_Pos</Property>
@@ -103,6 +104,7 @@
 	<Property Name="varPersistentID:{701DEBDE-F20D-43A7-85C9-4FCD24CD6D8F}" Type="Ref">/Target/Teleop_QCP.lvlib/Top_Wheel_Blue_Mul</Property>
 	<Property Name="varPersistentID:{70432AD4-625D-4A4C-9C67-78CB154E056B}" Type="Ref">/Target/Teleop_QCP.lvlib/Gear_Deliver_PID_P</Property>
 	<Property Name="varPersistentID:{70FD75DF-238A-4EDC-A04F-7D60293FDB95}" Type="Ref">/Target/Teleop_QCP.lvlib/Turret_Feed_CW</Property>
+	<Property Name="varPersistentID:{71959717-E1BD-498C-9458-588E779BC020}" Type="Ref">/Target/Teleop_QCP.lvlib/Vision_Boiler_Offset</Property>
 	<Property Name="varPersistentID:{72DEF0F4-616D-41B5-8C5D-85FAAEA0E8C9}" Type="Ref">/Target/Teleop_QCP.lvlib/Turret_Valid_Wait_In_Search</Property>
 	<Property Name="varPersistentID:{7338171B-E9E9-41B6-97F9-97532CCB4254}" Type="Ref">/Target/Auto_QCP.lvlib/Right_Peg_Theta_Final</Property>
 	<Property Name="varPersistentID:{73E70ADD-40F0-4960-B674-3D7C211E7113}" Type="Ref">/Target/Teleop_QCP.lvlib/FMS_Transition_Duty_Cycle</Property>
@@ -205,6 +207,7 @@
 	<Property Name="varPersistentID:{DE40A87D-2CF8-44FD-B7C7-302A983F42F8}" Type="Ref">/Target/Sensors.lvlib/Gear Overdoned</Property>
 	<Property Name="varPersistentID:{DEE632DD-25FA-4CF0-8E77-574FCF8DB89D}" Type="Ref">/Target/ToLog.lvlib/Distance (lateral) 1</Property>
 	<Property Name="varPersistentID:{E0A0BB73-187D-4A47-A0D4-3E26101377B5}" Type="Ref">/Target/Teleop_QCP.lvlib/FMS_Period</Property>
+	<Property Name="varPersistentID:{E17F4142-4942-411B-AE95-01316A3FD2BA}" Type="Ref">/Target/ControlMode.lvlib/FixedBottomRPM</Property>
 	<Property Name="varPersistentID:{E196ABBD-DD4B-40D3-B87F-DED49F039BB1}" Type="Ref">/Target/Teleop_QCP.lvlib/Gear_Mech_PID_P</Property>
 	<Property Name="varPersistentID:{E3B0AB17-5BFA-4405-82FA-F9BA3EE0BAF5}" Type="Ref">/Target/Sensors.lvlib/Body IMU Status</Property>
 	<Property Name="varPersistentID:{E55EE0E3-D87B-48A1-9A1E-141F12AAC756}" Type="Ref">/Target/Auto_QCP.lvlib/Far_Hopper_Y_Offset</Property>
@@ -219,6 +222,7 @@
 	<Property Name="varPersistentID:{EE52736D-1CAE-46E4-8C2D-A2732846866B}" Type="Ref">/Target/ToLog.lvlib/BotShooterResponse</Property>
 	<Property Name="varPersistentID:{EF99719B-1FEF-4E7F-BD8E-F4BD39EED9CD}" Type="Ref">/Target/Teleop_QCP.lvlib/FMS_Transition_Period</Property>
 	<Property Name="varPersistentID:{F47EAB6A-E284-4656-BA28-9C20C8564B9E}" Type="Ref">/Target/Auto_QCP.lvlib/Backup_Crash_Distance</Property>
+	<Property Name="varPersistentID:{F5BF669C-673E-4E37-BDE5-835D76D50605}" Type="Ref">/Target/ControlMode.lvlib/Fixed Top RPM</Property>
 	<Property Name="varPersistentID:{F61A5D04-A14E-40CF-82B4-7B90D7D65942}" Type="Ref">/Target/Teleop_QCP.lvlib/Gear_Intake_PDP_Adr</Property>
 	<Property Name="varPersistentID:{F79828D5-3A06-4387-95D9-954C552BC390}" Type="Ref">/Target/Teleop_QCP.lvlib/Gear_Zero_Down_Time</Property>
 	<Property Name="varPersistentID:{F7D942A5-AA49-42F6-B1BE-39C66067D275}" Type="Ref">/Target/Auto_QCP.lvlib/Hopper_Theta_Final</Property>
@@ -359,6 +363,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Vision Support VIs" Type="Folder" URL="../Vision Support VIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Behaviors and stuff in progress.vi" Type="VI" URL="../Behaviors and stuff in progress.vi"/>
 		<Item Name="ControlMode.lvlib" Type="Library" URL="../ControlMode.lvlib"/>
 		<Item Name="Drive Case Enum.ctl" Type="VI" URL="../enums/Drive Case Enum.ctl"/>
@@ -373,7 +378,6 @@ AddOutputFilter chunkFilter
 		<Item Name="IMUOrientOpen.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/IMUOrientOpen.vi"/>
 		<Item Name="MatchTimeNotifications.ctl" Type="VI" URL="../MatchTimeNotifications.ctl"/>
 		<Item Name="Notifiers.lvlib" Type="Library" URL="../Notifiers.lvlib"/>
-		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Sensors.lvlib" Type="Library" URL="../Sensors.lvlib"/>
 		<Item Name="Drive_Loop_Approach_Camera.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Approach_Camera.vi"/>
 		<Item Name="Shooting States.ctl" Type="VI" URL="../Shooting States.ctl"/>
@@ -456,17 +460,17 @@ AddOutputFilter chunkFilter
 				<Item Name="Stable.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Stable.vi"/>
 				<Item Name="Drive_Loop_Camera_Sensor.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Loop_Camera_Sensor.vi"/>
 				<Item Name="Pulse_Stretch_&amp;_Delay.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Pulse_Stretch_&amp;_Delay.vi"/>
-				<Item Name="QCPData.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/QCP_V2/QCPSupportCode/QCPData.ctl"/>
-				<Item Name="QCP_RefNum.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/QCP_V2/QCPSupportCode/QCP_RefNum.ctl"/>
 				<Item Name="QCP_GetDblArr.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/QCP_V2/QCPSupportCode/QCP_GetDblArr.vi"/>
 				<Item Name="QCP_GetDbl.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/QCP_V2/QCPSupportCode/QCP_GetDbl.vi"/>
 				<Item Name="QCP_Get.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/QCP_V2/QCP_Get.vi"/>
-				<Item Name="Open_File_Simple.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/File_Operations/Open_File_Simple.vi"/>
+				<Item Name="QCP_ReadFile.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/QCP_V2/QCP_ReadFile.vi"/>
+				<Item Name="QCP_Open.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/QCP_V2/QCP_Open.vi"/>
+				<Item Name="QCPData.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/QCP_V2/QCPSupportCode/QCPData.ctl"/>
+				<Item Name="QCP_RefNum.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/QCP_V2/QCPSupportCode/QCP_RefNum.ctl"/>
 				<Item Name="Split_String.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/String_Functions/Split_String.vi"/>
 				<Item Name="Begins_With.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/String_Functions/Begins_With.vi"/>
 				<Item Name="De-Commentify.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/File_Operations/De-Commentify.vi"/>
-				<Item Name="QCP_ReadFile.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/QCP_V2/QCP_ReadFile.vi"/>
-				<Item Name="QCP_Open.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/QCP_V2/QCP_Open.vi"/>
+				<Item Name="Open_File_Simple.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/File_Operations/Open_File_Simple.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -1022,6 +1026,8 @@ AddOutputFilter chunkFilter
 				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
 				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
 				<Item Name="WPI_Power Get roboRIO Input Voltage and Current.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get roboRIO Input Voltage and Current.vi"/>
+				<Item Name="FPGA_UtilitiesRead UserButton.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Utilities/FPGA_UtilitiesRead UserButton.vi"/>
+				<Item Name="WPI_UtilitiesFRC ReadUserButton.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC ReadUserButton.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1071,7 +1077,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">59</Property>
+				<Property Name="Bld_version.build" Type="Int">69</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
